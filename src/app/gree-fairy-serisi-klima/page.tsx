@@ -103,8 +103,8 @@ export default function SeriesPage() {
                                     Modeli İncele
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                 </div>
-                                                    </Link>
-                        </div>
+                            </div>
+                        </Link>
                         <Link href="/gree-fairy-9000-btu-antrasit-gri-duvar-tipi-klima" className="group relative">
                             {/* 3rd background card */}
                                 <div className="absolute inset-0 rounded-[32px] border border-gray-200 bg-gray-50/50 transform translate-x-4 -translate-y-4 shadow-sm transition-all duration-500 ease-out group-hover:translate-x-6 group-hover:-translate-y-6" />
@@ -179,8 +179,8 @@ export default function SeriesPage() {
                                     Modeli İncele
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                 </div>
-                                                    </Link>
-                        </div>
+                            </div>
+                        </Link>
 
                         <Link href="/gree-fairy-12000-btu-antrasit-gri-duvar-tipi-klima" className="group relative">
                             {/* 3rd background card */}
@@ -216,8 +216,8 @@ export default function SeriesPage() {
                                     Modeli İncele
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                 </div>
-                                                    </Link>
-                        </div>
+                            </div>
+                        </Link>
 
                         <Link href="/gree-fairy-18000-btu-beyaz-duvar-tipi-klima" className="group relative">
                             {/* 3rd background card */}
@@ -253,8 +253,8 @@ export default function SeriesPage() {
                                     Modeli İncele
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                 </div>
-                                                    </Link>
-                        </div>
+                            </div>
+                        </Link>
 
                         <Link href="/gree-fairy-18000-btu-antrasit-gri-duvar-tipi-klima" className="group relative">
                             {/* 3rd background card */}
@@ -290,8 +290,8 @@ export default function SeriesPage() {
                                     Modeli İncele
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                 </div>
-                                                    </Link>
-                        </div>
+                            </div>
+                        </Link>
 
                         <Link href="/gree-fairy-24000-btu-beyaz-duvar-tipi-klima" className="group relative">
                             {/* 3rd background card */}
@@ -327,8 +327,8 @@ export default function SeriesPage() {
                                     Modeli İncele
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                 </div>
-                                                    </Link>
-                        </div>
+                            </div>
+                        </Link>
 
                         <Link href="/gree-fairy-24000-btu-antrasit-gri-duvar-tipi-klima" className="group relative">
                             {/* 3rd background card */}
@@ -364,8 +364,8 @@ export default function SeriesPage() {
                                     Modeli İncele
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                 </div>
-                                                    </Link>
-                        </div>
+                            </div>
+                        </Link>
 
                     </div>
                 </div>

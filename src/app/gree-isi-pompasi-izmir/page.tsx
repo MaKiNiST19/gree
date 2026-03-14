@@ -95,8 +95,8 @@ export default function IsiPompasiPage() {
                                         Modeli İncele
                                         <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                                     </div>
-                                                            </Link>
-                            </div>
+                                </div>
+                            </Link>
                         ))}
                     </div>
                 </div>
