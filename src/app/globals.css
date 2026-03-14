@@ -1,26 +1,435 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-gray-50: #f9fafb;
+  --color-gray-800: #1f2937;
+  --color-blue-50: #eff6ff;
+  --color-blue-600: #2563eb;
+  --color-blue-800: #1e40af;
+  --color-blue-900: #1e3a8a;
+  --color-blue-950: #172554;
+  --color-orange-500: #f97316;
+  --color-orange-600: #ea580c;
+
+  --animate-marquee: marquee var(--duration) linear infinite;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-800);
+  }
+
+  a {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000000;
+  }
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: #000000;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+  line-height: 1.625;
+}
+
+.prose ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.prose ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Custom Fancy Button Hover Animation */
+.fancy-button {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  /* Ensure border-radius and cursor are inherited from Tailwind classes or define them */
+  cursor: pointer;
+}
+
+.fancy-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: skewX(-30deg);
+  transition: left 0.3s ease-in-out;
+}
+
+.fancy-button:hover {
+  transform: scale(1.05);
+  /* Scaled slightly for better layout flow */
+}
+
+.fancy-button:hover::before {
+  left: 100%;
+}
+
+/* Baseline Toggle Design for Product Features */
+.baseline-feature {
+  position: relative;
+  font-size: 0.85em;
+  width: 100%;
+}
+
+.baseline-feature input {
+  display: none;
+}
+
+.baseline-feature label {
+  position: absolute;
+  inset: 0;
+  display: none;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.baseline-feature .check-av:checked~.label-na,
+.baseline-feature .check-na:checked~.label-li,
+.baseline-feature .check-li:checked~.label-av {
+  display: block;
+}
+
+.baseline-feature .container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.25em 1.5em;
+  border-radius: 1.5em;
+  transition: 0.5s all;
+  background: #f0faff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+}
+
+.baseline-feature .text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: 0.5s all;
+  pointer-events: none;
+  width: 100%;
+  height: 1.25em;
+}
+
+.baseline-feature .text div {
+  transition: 0.5s all, 0.5s translate;
+  position: absolute;
+  white-space: nowrap;
+  translate: 0 -1.25em;
+  opacity: 0;
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 1.1em;
+}
+
+/* Green State (Available) */
+.baseline-feature .check-av:checked~.container {
+  background: #e8ffee;
+  border-color: #c4eed0;
+}
+
+.baseline-feature .check-av:checked~.container .text-wa {
+  opacity: 1;
+  translate: 0 0em;
+}
+
+.baseline-feature .check-av:checked~.container .text-li {
+  translate: 0 1.25em;
+}
+
+/* Blue State (Newly) */
+.baseline-feature .check-na:checked~.container {
+  background: #f0faff;
+  border-color: #a8c7fa;
+}
+
+.baseline-feature .check-na:checked~.container .text-na {
+  opacity: 1;
+  translate: 0 0em;
+}
+
+.baseline-feature .check-na:checked~.container .text-wa {
+  translate: 0 1.25em;
+}
+
+/* Orange State (Limited) */
+.baseline-feature .check-li:checked~.container {
+  background: #fff5e6;
+  border-color: #f0d4a9;
+}
+
+.baseline-feature .check-li:checked~.container .text-li {
+  opacity: 1;
+  translate: 0 0em;
+}
+
+.baseline-feature .check-li:checked~.container .text-na {
+  translate: 0 1.25em;
+}
+
+.baseline-feature svg {
+  overflow: visible;
+  height: 1.4em;
+  flex-shrink: 0;
+}
+
+.baseline-feature svg path {
+  fill: #1ea446;
+  transition: 0.5s all;
+}
+
+/* Color adjustments for check based on state */
+.baseline-feature .check-av:checked~.container svg path {
+  fill: #1ea446;
+}
+
+.baseline-feature .check-na:checked~.container svg path {
+  fill: #1b6ef3;
+}
+
+.baseline-feature .check-li:checked~.container svg path {
+  fill: #f09409;
+}
+
+/* Animated Product Categories Card */
+.product-card {
+  background: white;
+  border-radius: 20px;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.05),
+    0 0 0 1px rgba(0, 0, 0, 0.02);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg,
+      transparent,
+      var(--color-orange-500),
+      var(--color-blue-500),
+      transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(0, 155, 225, 0.1);
+  border-color: rgba(0, 155, 225, 0.2);
+}
+
+.product-card:hover::before {
+  opacity: 1;
+}
+
+.product-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-card .icon {
+  width: 100%;
+  height: 240px;
+  background: linear-gradient(135deg, var(--color-blue-50), var(--color-blue-100));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blue-600);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.8), 0 4px 10px rgba(0, 0, 0, 0.03);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.product-card .icon svg {
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  stroke: #009be1;
+}
+
+.product-card .icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: all 0.4s ease;
+}
+
+.product-card:hover .icon {
+  transform: scale(1.02);
+  background: linear-gradient(135deg, #009be1, #005f99);
+}
+
+.product-card:hover .icon svg {
+  stroke: white;
+}
+
+.product-card-content {
+  flex: 1;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.product-card .card-title {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover .card-title {
+  color: #009be1;
+}
+
+.product-card .card-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #6b7280;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.product-card-footer {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.product-card .btn-primary {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #009be1;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 155, 225, 0.25);
+}
+
+.product-card .btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: skewX(-30deg);
+  transition: left 0.3s ease-in-out;
+}
+
+.product-card .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 155, 225, 0.35);
+}
+
+.product-card .btn-primary:hover::before {
+  left: 100%;
+}
+
+.product-card .btn-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.product-card .btn-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+}
+
+@keyframes cardFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.product-card-anim {
+  animation: cardFadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  opacity: 0;
 }
