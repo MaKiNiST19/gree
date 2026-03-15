@@ -3,7 +3,7 @@ import React from 'react';
 export default function SEOText() {
   return (
     <section className="py-16 bg-white border-t border-gray-100">
-      <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12">
         <div className="w-full">
           <div className="mb-8">
             <span className="inline-block text-[#009be1] text-[10px] font-bold tracking-widest uppercase mb-2">

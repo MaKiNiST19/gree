@@ -4,7 +4,7 @@ import { Instagram, Facebook, Linkedin, Twitter, Youtube, Star } from 'lucide-re
 export default function Footer() {
     return (
         <footer className="bg-white text-gray-600 py-16 border-t border-gray-100">
-            <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
+            <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12">
                 {/* Main Footer Content */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-16">
                     
@@ -46,7 +46,7 @@ export default function Footer() {
                     </div>
 
                     {/* Links Grid */}
-                    <div className="lg:col-span-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                    <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8">
                         {/* Column 1: Hızlı Bağlantılar */}
                         <div className="space-y-4">
                             <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Hızlı Bağlantılar</h4>

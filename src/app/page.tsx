@@ -26,25 +26,25 @@ export const metadata = generateSEO({
 export default function Home() {
   return (
     <>
-      <section className="relative -mt-[84px] md:-mt-[92px] w-full h-screen min-h-[600px] flex items-center overflow-hidden bg-gray-900 bg-[url('/gree-klima-izmir.jpg')] bg-cover bg-center">
+      <section className="relative -mt-[72px] md:-mt-[92px] w-full h-screen min-h-[550px] md:min-h-[600px] flex items-center overflow-hidden bg-gray-900 bg-[url('/gree-klima-izmir.jpg')] bg-cover bg-center">
         {/* Subtle overlay for text contrast */}
         <div className="absolute inset-0 bg-black/30 md:bg-black/20" />
 
-        <div className="relative z-20 w-full px-12">
+        <div className="relative z-20 w-full px-4 sm:px-6 lg:px-12">
           <div className="max-w-3xl">
      
-            <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 drop-shadow-lg">
+            <h1 className="text-white text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-4 sm:mb-6 drop-shadow-lg">
               Gree Klima İzmir <br className="hidden md:block" />
               Yeni Nesil İklim Konforu
             </h1>
-            <p className="text-white/90 text-sm md:text-base lg:text-lg font-normal leading-relaxed max-w-xl mb-10 drop-shadow-md">
+            <p className="text-white/90 text-[13px] sm:text-sm md:text-base lg:text-lg font-normal leading-relaxed max-w-xl mb-6 sm:mb-10 drop-shadow-md">
               22 Yıllık Deytes İklimlendirme uzmanlığı ve Gree inverter teknolojisi ile evinizde sessiz, enerji verimli ve dengeli soğutma çözümlerini profesyonel İzmir kadromuzla sunuyoruz.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="tel:+902322316583" className="fancy-button bg-[#f39000] text-white font-semibold py-4 px-8 rounded-md text-center shadow-lg">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <Link href="tel:+902322316583" className="fancy-button bg-[#f39000] text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-md text-center shadow-lg text-[14px] sm:text-base">
                 Ücretsiz Keşif İste
               </Link>
-              <Link href="/gree-klima-modelleri" className="fancy-button bg-[#009be1] text-white font-semibold py-4 px-8 rounded-md text-center shadow-lg">
+              <Link href="/gree-klima-modelleri" className="fancy-button bg-[#009be1] text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-md text-center shadow-lg text-[14px] sm:text-base">
                 Modelleri İncele
               </Link>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* Ürün Kategorileri Bloğu */}
       <section className="bg-gray-50 py-24 overflow-hidden border-b border-gray-100">
-        <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
+        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12">
           <div className="text-center mb-20">
             <h2 className="text-sm font-bold tracking-widest text-[#f39000] uppercase mb-3">TÜM ÜRÜN TİPLERİ</h2>
             <h3 className="text-3xl md:text-5xl font-extrabold text-black mb-4">
@@ -78,7 +78,7 @@ export default function Home() {
               { title: "Ticari Klimalar", url: "/ticari-gree-klimalar", image: "/gree-klima-ticari-kanal-tipi.jpg" },
               { title: "VRF Kima Sistemleri", url: "/", image: "/gree-klima-vrf.jpg" }
             ].map((category) => (
-              <div key={category.title} className="relative group h-[480px] w-full">
+              <div key={category.title} className="relative group h-[380px] sm:h-[420px] md:h-[480px] w-full">
                 {/* 3rd background card */}
                 <div className="absolute inset-0 rounded-2xl border border-gray-200 bg-gray-50/50 transform translate-x-4 -translate-y-4 shadow-sm transition-all duration-500 ease-out group-hover:translate-x-6 group-hover:-translate-y-6" />
                 

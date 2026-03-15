@@ -31,11 +31,11 @@ const BaselineFeature = ({ id, text, text2 = "Süper Verimli", text3 = "Hemen Ra
 export default function ProductIntro() {
     return (
         <section className="py-24 bg-[#f7f9fb] overflow-hidden">
-            <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
+            <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     {/* Left Column: Content */}
                     <div className="order-2 lg:order-1">
-                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-black leading-tight mb-8">
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black leading-tight mb-6 sm:mb-8">
                             İzmir’in Nemli İklimine Uyum Sağlayan <br />
                             <span className="text-[#009be1]">Gree Klima</span> Teknolojisi
                         </h2>
@@ -76,7 +76,7 @@ export default function ProductIntro() {
                             <img 
                                 src="/gree-klima-izmir-deytes.jpg" 
                                 alt="Gree Klima İzmir Deytes İklimlendirme" 
-                                className="relative rounded-2xl shadow-[0_22px_70px_4px_rgba(0,0,0,0.15)] object-cover w-full h-[650px]" 
+                                className="relative rounded-2xl shadow-[0_22px_70px_4px_rgba(0,0,0,0.15)] object-cover w-full h-[350px] sm:h-[450px] lg:h-[650px]" 
                             />
                         </div>
                     </div>

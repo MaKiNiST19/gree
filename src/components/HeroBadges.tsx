@@ -139,20 +139,20 @@ export const RatingBadge = ({ title, subtitle, className = '', ...props }: Ratin
 
 export default function HeroBadges() {
     return (
-        <div className="flex flex-col items-center w-full relative z-30 px-4 mt-[-70px]">
-            <div className="grid grid-cols-1 md:grid-cols-3 md:divide-x md:divide-gray-200 mb-6 bg-white/95 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-gray-100 max-w-7xl w-full">
-                <div className="flex justify-center py-4 md:py-0">
+        <div className="flex flex-col items-center w-full relative z-30 px-3 sm:px-4 mt-[-50px] sm:mt-[-70px]">
+            <div className="grid grid-cols-1 sm:grid-cols-3 sm:divide-x sm:divide-gray-200 mb-4 sm:mb-6 bg-white/95 backdrop-blur-md p-4 sm:p-6 md:p-8 rounded-2xl shadow-xl border border-gray-100 max-w-7xl w-full">
+                <div className="flex justify-center py-2 sm:py-0">
                     <RatingBadge title="Yetkili Gree Bayi" subtitle="Satış & Profesyonel Montaj" />
                 </div>
-                <div className="flex justify-center items-center py-4 md:py-0">
+                <div className="flex justify-center items-center py-2 sm:py-0">
                     <RatingBadge title="İzmir Geneli Servis" subtitle="Hızlı Teknik Destek" />
                 </div>
-                <div className="flex justify-center py-4 md:py-0">
+                <div className="flex justify-center py-2 sm:py-0">
                     <RatingBadge title="Ücretsiz Keşif" subtitle="Doğru Verimlilik Analizi" />
                 </div>
             </div>
-            <h2 className="text-gray-600 tracking-wider font-semibold uppercase bg-white/80 py-2 px-6 rounded-full backdrop-blur-sm" style={{ fontSize: '12px' }}>
-                İzmir’de Güvenilir Gree Klima Hizmeti
+            <h2 className="text-gray-600 tracking-wider font-semibold uppercase bg-white/80 py-2 px-4 sm:px-6 rounded-full backdrop-blur-sm text-[10px] sm:text-[12px]">
+                İzmir'de Güvenilir Gree Klima Hizmeti
             </h2>
         </div>
     );

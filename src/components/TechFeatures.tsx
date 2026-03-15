@@ -19,14 +19,14 @@ const FeatureItem = ({ title, description, Icon }: { title: string, description:
 export default function TechFeatures() {
     return (
         <section className="py-24 bg-white overflow-hidden">
-            <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
+            <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                     {/* Left Column: Content */}
                     <div className="max-w-2xl">
                         <span className="text-[#009be1] font-bold tracking-wider uppercase text-sm mb-4 block">
                             Teknoloji & Verimlilik
                         </span>
-                        <h2 className="text-3xl md:text-5xl font-extrabold text-black leading-tight mb-8 tracking-tight">
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-black leading-tight mb-6 sm:mb-8 tracking-tight">
                             Gree Inverter Klima <br />
                             <span className="text-[#009be1]">Teknolojisinin Avantajları</span>
                         </h2>

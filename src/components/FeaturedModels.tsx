@@ -32,7 +32,7 @@ const products = [
 export default function FeaturedModels() {
   return (
     <section className="py-24 bg-gray-50/50">
-      <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-extrabold text-black tracking-tight mb-4">
             Öne Çıkan <span className="text-[#009be1]">Gree Klima Modelleri</span>
