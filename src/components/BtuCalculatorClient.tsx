@@ -70,12 +70,12 @@ export default function BtuCalculatorClient() {
                     {/* Active Progress Bar */}
                     <div 
                         className="absolute top-1/2 left-0 h-1.5 bg-[#009be1] -z-10 rounded-full transition-all duration-500 ease-in-out" 
-                        style={{ width: `\${((step - 1) / 4) * 100}%` }}
+                        style={{ width: `${((step - 1) / 4) * 100}%` }}
                     />
 
                     {[1, 2, 3, 4, 5].map((s) => (
                         <div key={s} className="flex flex-col items-center gap-2">
-                            <div className={`w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center font-bold text-base sm:text-lg border-4 transition-all duration-300 \${step >= s ? 'bg-[#009be1] border-blue-100 text-white shadow-md' : 'bg-white border-gray-200 text-gray-400'}`}>
+                            <div className={`w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center font-bold text-base sm:text-lg border-4 transition-all duration-300 ${step >= s ? 'bg-[#009be1] border-blue-100 text-white shadow-md' : 'bg-white border-gray-200 text-gray-400'}`}>
                                 {step > s ? <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6" /> : s}
                             </div>
                         </div>
@@ -100,7 +100,7 @@ export default function BtuCalculatorClient() {
                                     <button 
                                         key={region.name}
                                         onClick={() => setSelectedRegion(region)}
-                                        className={`p-4 rounded-xl font-bold flex items-center justify-center transition-all duration-200 border-2 \${selectedRegion?.name === region.name ? 'border-[#009be1] bg-blue-50 text-blue-800 shadow-md ring-2 ring-blue-500/20' : 'border-gray-200 hover:border-blue-300 text-gray-600 hover:bg-gray-50'}`}
+                                        className={`p-4 rounded-xl font-bold flex items-center justify-center transition-all duration-200 border-2 ${selectedRegion?.name === region.name ? 'border-[#009be1] bg-blue-50 text-blue-800 shadow-md ring-2 ring-blue-500/20' : 'border-gray-200 hover:border-blue-300 text-gray-600 hover:bg-gray-50'}`}
                                     >
                                         {region.name}
                                     </button>
@@ -179,7 +179,7 @@ export default function BtuCalculatorClient() {
                                     <button 
                                         key={factor.label}
                                         onClick={() => setSunFactor(factor.value)}
-                                        className={`px-6 py-5 rounded-2xl font-bold flex items-center text-left transition-all duration-200 border-2 \${sunFactor === factor.value ? 'border-[#009be1] bg-blue-50 text-blue-900 shadow-md ring-4 ring-blue-500/10' : 'border-gray-200 hover:border-blue-300 text-gray-600 hover:bg-gray-50'}`}
+                                        className={`px-6 py-5 rounded-2xl font-bold flex items-center text-left transition-all duration-200 border-2 ${sunFactor === factor.value ? 'border-[#009be1] bg-blue-50 text-blue-900 shadow-md ring-4 ring-blue-500/10' : 'border-gray-200 hover:border-blue-300 text-gray-600 hover:bg-gray-50'}`}
                                     >
                                         <span className="text-2xl mr-4">{factor.icon}</span>
                                         {factor.label}
@@ -194,7 +194,7 @@ export default function BtuCalculatorClient() {
                                 <button 
                                     onClick={calculateResult} 
                                     disabled={!sunFactor}
-                                    className={`flex-1 px-6 py-4 rounded-xl font-bold flex justify-center items-center transition-all shadow-lg \${sunFactor ? 'bg-[#f39000] hover:bg-[#d67e00] text-white scale-100' : 'bg-gray-300 text-gray-500 cursor-not-allowed scale-95'}`}
+                                    className={`flex-1 px-6 py-4 rounded-xl font-bold flex justify-center items-center transition-all shadow-lg ${sunFactor ? 'bg-[#f39000] hover:bg-[#d67e00] text-white scale-100' : 'bg-gray-300 text-gray-500 cursor-not-allowed scale-95'}`}
                                 >
                                     Sonucu Göster <ArrowRight className="w-5 h-5 ml-2" />
                                 </button>

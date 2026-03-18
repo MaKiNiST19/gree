@@ -37,7 +37,7 @@ export default function ProductSchema({ name, description, image, price, brand, 
 
     return (
         <Script
-            id={`product-schema-\${sku || name}`}
+            id={`product-schema-${sku || name}`}
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
