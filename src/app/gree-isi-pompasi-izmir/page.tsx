@@ -12,16 +12,16 @@ export const metadata = generateSEO({
 
 const products = [
     {
-        name: "Gree Versati III Monoblok",
-        description: "Dış ünitede entegre hidrolik modülü ile kolay kurulum ve minimum alan kullanımı sunan verimli ısı pompası.",
-        image: "/gree-ısı-pompası.png",
-        href: "#"
+        name: "Versati III Split Tip Isı Pompası",
+        description: "İç ve dış ünite kombinasyonu ile aşırı soğuk iklimlerde bile yüksek performans sağlayan akıllı ısıtma sistemi.",
+        image: "/isi-pompasi/versati-3-split.png",
+        href: "/gree-isi-pompasi-versati-3-split"
     },
     {
-        name: "Gree Versati III Split Tip",
-        description: "İç ve dış ünite kombinasyonu ile aşırı soğuk iklimlerde bile yüksek performans sağlayan akıllı ısıtma sistemi.",
-        image: "/gree-ısı-pompası.png",
-        href: "#"
+        name: "Versati IV Monoblok Tip Isı Pompası",
+        description: "Tüm sistem bileşenlerinin tek bir dış ünitede toplandığı, az yer kaplayan ve yüksek verimli monoblok çözüm.",
+        image: "/isi-pompasi/versati-4-monoblok.png",
+        href: "/gree-isi-pompasi-versati-4-monoblok"
     }
 ];
 
@@ -55,8 +55,8 @@ export default function IsiPompasiPage() {
             <section className="py-24 bg-white">
                 <div className="max-w-[1400px] mx-auto px-6">
                     <div className="text-center mb-20">
-                        <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Versati III <span className="text-[#009be1]">Serisi</span></h2>
-                        <p className="text-gray-500 max-w-2xl mx-auto font-medium text-lg">Doğadan aldığı enerjiyi konforunuza dönüştüren Gree Versati III ile tanışın.</p>
+                        <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Gree Versati <span className="text-[#009be1]">Serileri</span></h2>
+                        <p className="text-gray-500 max-w-2xl mx-auto font-medium text-lg">Doğadan aldığı enerjiyi konforunuza dönüştüren Gree Versati serileri ile tanışın.</p>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-20 pt-8 justify-center">

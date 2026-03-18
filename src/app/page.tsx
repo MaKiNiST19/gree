@@ -18,8 +18,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = generateSEO({
-  title: 'Gree Klima İzmir Yetkili Bayi & Servis',
-  description: 'İzmir Gree klima yetkili bayi. Karabağlar, Konak, Buca, Karşıyaka ve tüm İzmir geneli profesyonel klima satış, montaj ve bakım servis hizmetleri.',
+  title: 'Gree Klima İzmir Yetkili Bayi | Deytes İklimlendirme',
+  description: 'İzmir Gree klima yetkili bayi. Karabağlar, Konak, Buca, Karşıyaka ve tüm İzmir geneli profesyonel klima satış, montaj ve bakım hizmetleri.',
   pathname: '/',
 });
 
@@ -125,29 +125,19 @@ export default function Home() {
         <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-extrabold text-[#000000] tracking-tight">
-              İzmir <span className="text-[#009be1]">Gree Klima Servisi</span> ve Teknik Hizmetler
+              Profesyonel <span className="text-[#009be1]">İklimlendirme</span> Hizmetleri
             </h2>
             <p className="mt-4 text-lg font-medium text-gray-500 max-w-2xl mx-auto">
-              Satış, montaj, bakım ve teknik servis çözümlerimiz
+              Satış, montaj ve periyodik bakım çözümlerimiz
             </p>
           </div>
           
-          <div className="flex xl:grid xl:grid-cols-3 gap-8 pb-12 pt-8 overflow-x-auto snap-x snap-mandatory xl:snap-none xl:overflow-visible hide-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          <div className="flex xl:grid xl:grid-cols-2 lg:max-w-4xl mx-auto gap-8 pb-12 pt-8 overflow-x-auto snap-x snap-mandatory xl:snap-none xl:overflow-visible hide-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {[
-              {
-                name: "Hızlı Arıza ve Teknik Servis",
-                description: "Gree inverter klima modellerinde F0 hata kodları, gaz kaçak kontrolü ve kart arızalarında profesyonel servis desteği sunuyoruz.",
-                image: "/gree-klima-acil-teknik-servis.png"
-              },
               {
                 name: "Profesyonel Klima Temizliği",
                 description: "Enerji tasarruflu klima performansı için iç ünite ve eşanjör yüzeylerinde hijyen odaklı detaylı bakım hizmeti sunuyoruz.",
                 image: "/gree-klima-temizleme.png"
-              },
-              {
-                name: "Tüm Gree Modellerine Destek",
-                description: "Sessiz klima teknolojisi odaklı duvar, salon veya multi sistem dahil tüm Gree çözümlerinde garantili teknik servis sağlıyoruz.",
-                image: "/gree-klima-modelleri.png"
               },
               {
                 name: "Vakumlu Klima Montajı",

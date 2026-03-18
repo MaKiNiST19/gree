@@ -94,8 +94,7 @@ export default function Header() {
     const hizmetlerItems = [
         { title: "Gree Klima Satış & Ücretsiz Keşif", href: "/gree-klima-satis-izmir", desc: "İhtiyacınıza en uygun modeli birlikte seçelim." },
         { title: "Profesyonel Montaj Hizmeti", href: "/klima-montaj-izmir", desc: "Vakumlu ve standartlara uygun temiz kurulum." },
-        { title: "Periyodik Bakım & Temizlik", href: "/klima-bakim-izmir", desc: "Verimlilik artışı ve hijyenik hava akışı için." },
-        { title: "Teknik Servis & Onarım", href: "/gree-klima-servisi-izmir", desc: "Gree uzmanlığı ile hızlı ve garantili çözümler." }
+        { title: "Periyodik Bakım & Temizlik", href: "/klima-bakim-izmir", desc: "Verimlilik artışı ve hijyenik hava akışı için." }
     ];
 
     return (
@@ -175,7 +174,7 @@ export default function Header() {
                                                 <ShieldCheck className="w-5 h-5 text-[#009be1]" /> 2 Yıl Standart + 3 Yıl Ek Garanti
                                             </div>
                                             <div className="flex items-center gap-2 text-sm font-bold text-gray-700">
-                                                <UserCheck className="w-5 h-5 text-[#009be1]" /> İzmir Yetkili Satış ve Servis
+                                                <UserCheck className="w-5 h-5 text-[#009be1]" /> İzmir Yetkili Satış ve Montaj
                                             </div>
                                             <div className="flex items-center gap-2 text-sm font-bold text-gray-700">
                                                 <Wind className="w-5 h-5 text-[#009be1]" /> Ücretsiz Keşif Desteği

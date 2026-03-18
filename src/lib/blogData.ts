@@ -35,7 +35,7 @@ export const blogPosts: BlogPost[] = [
             { question: 'Drenaj borusunu üfleyerek açsam düzelir mi?', answer: 'Ciddi sertleşmiş çamur blokajlarında üfleme işlemi tapanın daha da dibe sıkışmasına yol açar. Tazyikli kimyasal solüsyonla yıkanması tek kesin yöntemdir.' }
         ],
         recommendedHizmet: 'İzmir Klima Tamiri Uzmanları İçin Tıklayın',
-        recommendedHizmetUrl: '/izmir-klima-tamiri'
+        recommendedHizmetUrl: '/iletisim'
     },
     {
         slug: 'klima-gazi-ne-zaman-biter',
@@ -58,7 +58,7 @@ export const blogPosts: BlogPost[] = [
             { question: 'Gazın çeyreği kalmışsa üzerine ilave basılır mı?', answer: 'Asla! Mevcut R410 tipi iki bazlı gazların karışım oranı uçar. İçindeki yarım gaz da odaya tahliye edilir ve sistem sıfırdan komple tam şarj alır.' }
         ],
         recommendedHizmet: 'Gaz Kaçağı Arıza Onarım Merkezi',
-        recommendedHizmetUrl: '/izmir-klima-ariza-kodlari'
+        recommendedHizmetUrl: '/gree-ariza-kodlari'
     },
     {
         slug: 'inverter-klima-cok-elektrik-yakar-mi',
@@ -242,7 +242,7 @@ export const blogPosts: BlogPost[] = [
             { question: 'Cihazımın başka bir ilde sökülüp takılması garantiyi iptal eder mi?', answer: 'Eğer işlem, yetkili Deytes gibi şubelerin bilgisi, Vakumlu İthal oksi çekimi onayıyla resmi sevk defilesine yazılmazsa ve siz bunu mahalle köşesindeki adamlarla taşıtırsanız kesinlikle İptal ile cezalandırılırsınız.' }
         ],
         recommendedHizmet: 'İzmir Orijinal Parça (Klima Yedek Yetkili) Tamircisi',
-        recommendedHizmetUrl: '/izmir-klima-tamiri'
+        recommendedHizmetUrl: '/iletisim'
     }
 ];
 

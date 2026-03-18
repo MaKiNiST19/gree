@@ -33,7 +33,7 @@ export default function GreeVsArcelikPage() {
 
                 <h2 className="text-2xl text-blue-800 mt-8 mb-4">Inverter Sök-Tak ve Montaj Disiplini: Kim Daha İyi?</h2>
                 <p>
-                    Çoğu tüketicinin fark edemediği devasa konu, <Link href="/izmir-klima-montaj">kurulum kalitesidir</Link>. Beyaz eşya servisleri televizyon kutusunu açıp gitmek ile fırın kurmak arasında yoğun koşturmaca içerisindedir; bu sebeple klimaları "20 dakikada pürjör yöntemiyle kurup geçerler" (Vakumlama işlemini atlasa dahi siz bunu anlayamazsınız ve 2 yıl sonra motor kompresörü korozyona yenik düşüp F0 cihaz hatası - <Link href="/gree-ariza-kodlari" className="underline font-bold">Arıza Kartı Uyarısı</Link> veya tamamen pert uyarısı verir).
+                    Çoğu tüketicinin fark edemediği devasa konu, <Link href="/izmir-klima-montaj">kurulum kalitesidir</Link>. Beyaz eşya servisleri televizyon kutusunu açıp gitmek ile fırın kurmak arasında yoğun koşturmaca içerisindedir; bu sebeple klimaları "20 dakikada pürjör yöntemiyle kurup geçerler" (Vakumlama işlemini atlasa dahi siz bunu anlayamazsınız ve 2 yıl sonra motor kompresörü korozyona yenik düşüp F0 cihaz hatası - Arıza Kartı Uyarısı veya tamamen pert uyarısı verir).
                 </p>
 
                 <p>Deytes bünyesindeki kurumsal süreçte ise <strong>sadece iklimlendirme yapan</strong> teknisyen kadromuz, Gree'yi duvarınıza tam minimum "yarım saatlik vakumlama motorlu tazyikle bağlar", Oksi-gaz ve çift izoleli saf bakır borular çeker. Sonuç olarak Gree cihazı, montajın lüks işçiliğiyle yılların amiral gemisi performansı sunarken, sıradan bir yerli market cihazı 3 sene içinde tıkanıp verimsizlikte kalır.</p>

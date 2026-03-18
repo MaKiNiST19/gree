@@ -30,30 +30,31 @@ const indoorProducts = [
     { name: "Multi Duvar Tipi Amber İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09YC-K6DNA2A/I", image: "/amber/amber-layout.webp", href: "/gree-multi-ic-unite-amber-9000-btu" },
 
     // Lomo Serisi
-    { name: "Multi Duvar Tipi Lomo İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24QE-K6DNE8E/I", image: "/lomo/lomo-layout.webp", href: "#" },
-    { name: "Multi Duvar Tipi Lomo İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18QD-K6DNE8D/I", image: "/lomo/lomo-layout.webp", href: "#" },
-    { name: "Multi Duvar Tipi Lomo İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09QB-K6DNB8E/I", image: "/lomo/lomo-layout.webp", href: "#" },
+    { name: "Multi Duvar Tipi Lomo İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24QE-K6DNE8E/I", image: "/lomo/lomo-layout.png", href: "/gree-multi-ic-unite-lomo-24000-btu" },
+    { name: "Multi Duvar Tipi Lomo İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18QD-K6DNE8D/I", image: "/lomo/lomo-layout.png", href: "/gree-multi-ic-unite-lomo-18000-btu" },
+    { name: "Multi Duvar Tipi Lomo İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09QB-K6DNB8E/I", image: "/lomo/lomo-layout.png", href: "/gree-multi-ic-unite-lomo-9000-btu" },
 
     // Kaset Tipi
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 20000 BTU/h", description: "Stok Kodu: GKH24DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "#" },
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "#" },
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "#" },
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 9000 BTU/h", description: "Stok Kodu: GKH9DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "#" },
-    { name: "Multi Kaset Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GKH24BC-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "#" },
-    { name: "Multi Kaset Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18BB-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "#" },
-    { name: "Multi Kaset Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12BB-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "#" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 20000 BTU/h", description: "Stok Kodu: GKH24DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-20000-btu" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-18000-btu" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-12000-btu" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 9000 BTU/h", description: "Stok Kodu: GKH9DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-9000-btu" },
+    { name: "Multi Kaset Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GKH24BC-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-24000-btu" },
+    { name: "Multi Kaset Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18BB-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-18000-btu" },
+    { name: "Multi Kaset Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12BB-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-12000-btu" },
 
     // Kanal Tipi
-    { name: "Multi Kanal Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GFH24CC-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "#" },
-    { name: "Multi Kanal Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GFH18CB-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "#" },
-    { name: "Multi Kanal Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GFH12CA-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "#" },
-    { name: "Multi Kanal Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GFH09CA-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "#" },
+    { name: "Multi Kanal Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GFH24CC-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-24000-btu" },
+    { name: "Multi Kanal Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GFH18CB-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-18000-btu" },
+    { name: "Multi Kanal Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GFH12CA-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-12000-btu" },
+    { name: "Multi Kanal Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GFH09CA-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-9000-btu" },
 
     // Konsol Tipi
-    { name: "Multi Konsol Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GEH18AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "#" },
-    { name: "Multi Konsol Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GEH12AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "#" },
-    { name: "Multi Konsol Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GEH09AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "#" }
+    { name: "Multi Konsol Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GEH18AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "/gree-multi-ic-unite-konsol-18000-btu" },
+    { name: "Multi Konsol Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GEH12AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "/gree-multi-ic-unite-konsol-12000-btu" },
+    { name: "Multi Konsol Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GEH09AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "/gree-multi-ic-unite-konsol-9000-btu" }
 ];
+
 
 export default function MultiIndoorPage() {
     const breadcrumb = generateBreadcrumbSchema([
@@ -88,7 +89,16 @@ export default function MultiIndoorPage() {
                                 
                                 <div className="relative z-10 bg-white border border-gray-100 rounded-[24px] overflow-hidden shadow-sm transition-all duration-500 group-hover:shadow-xl flex flex-col h-full p-4 text-center">
                                     <div className="relative w-full aspect-square mb-4 p-4 flex items-center justify-center bg-gray-50/50 rounded-xl overflow-hidden">
-                                        <img src={product.image} alt={product.name} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />
+                                        <img 
+                                            src={product.image} 
+                                            onError={(e) => {
+                                                const target = e.target as HTMLImageElement;
+                                                const fileName = product.name.replace(/ /g, '-').replace(/[^\w-]/g, '') + '.png';
+                                                target.src = `/multi-sistem-ic-uniteler/${fileName}`;
+                                            }}
+                                            alt={product.name} 
+                                            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" 
+                                        />
                                     </div>
                                     <h3 className="text-sm font-bold text-gray-900 mb-2 group-hover:text-[#009be1] transition-colors duration-300 min-h-[40px] flex items-center justify-center text-center">
                                         {product.name}

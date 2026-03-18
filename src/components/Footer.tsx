@@ -52,7 +52,6 @@ export default function Footer() {
                             <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Hızlı Bağlantılar</h4>
                             <ul className="space-y-3">
                                 <li><Link href="/gree-klima-izmir" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Klima İzmir</Link></li>
-                                <li><Link href="/izmir-gree-klima-servisi" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Klima Servisi</Link></li>
                                 <li><Link href="/gree-klima-fiyatlari" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Klima Fiyatları</Link></li>
                                 <li><Link href="/duvar-tipi-gree-klimalar" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Duvar Tipi Klima</Link></li>
                                 <li><Link href="/salon-tipi-gree-klimalar" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Salon Tipi Klima</Link></li>
@@ -76,11 +75,10 @@ export default function Footer() {
                         <div className="space-y-4">
                             <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Hizmetler</h4>
                             <ul className="space-y-3">
-                                <li><Link href="/izmir-gree-klima-servisi" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Teknik Servis</Link></li>
                                 <li><Link href="/izmir-gree-klima-bakim" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Klima Bakımı</Link></li>
                                 <li><Link href="/izmir-gree-klima-montaj" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Klima Montajı</Link></li>
+                                <li><Link href="/gree-ariza-kodlari" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Arıza Kodları</Link></li>
                                 <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Kapasite Hesabı</Link></li>
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Arıza Kodları</Link></li>
                             </ul>
                         </div>
 

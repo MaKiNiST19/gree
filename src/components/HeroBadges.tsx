@@ -145,7 +145,7 @@ export default function HeroBadges() {
                     <RatingBadge title="Yetkili Gree Bayi" subtitle="Satış & Profesyonel Montaj" />
                 </div>
                 <div className="flex justify-center items-center py-2 sm:py-0">
-                    <RatingBadge title="İzmir Geneli Servis" subtitle="Hızlı Teknik Destek" />
+                    <RatingBadge title="Gree Teknik Destek" subtitle="Hata Kodları & Teknik Bilgi" />
                 </div>
                 <div className="flex justify-center py-2 sm:py-0">
                     <RatingBadge title="Ücretsiz Keşif" subtitle="Doğru Verimlilik Analizi" />

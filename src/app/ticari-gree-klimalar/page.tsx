@@ -13,22 +13,28 @@ export const metadata = generateSEO({
 
 const products = [
     {
-        name: "Gree Kaset Tipi Klima",
-        description: "4 yöne üfleme özelliğiyle ofis ve mağazalarda homojen iklimlendirme sağlayan profesyonel çözüm.",
-        image: "/gree-ticari-kanal-tipi-klima.png",
-        href: "#"
+        name: "Kanal Tipi Ticari Klima",
+        description: "Gizli tavan montajı ile estetik görünümü bozmadan mükemmel performans sunan profesyonel kanal tipi üniteler.",
+        image: "/ticari/kanalli-tip.png",
+        href: "/gree-ticari-klima-kanal-tipi"
     },
     {
-        name: "Gree Kanal Tipi Klima",
-        description: "Gizli tavan montajı ile estetik görünümü bozmadan mükemmel performans sunan ticari üniteler.",
-        image: "/gree-ticari-kanal-tipi-klima.png",
-        href: "#"
+        name: "Karavan Kliması",
+        description: "Karavanlar için özel tasarım, aerodinamik dış ünite ve yüksek soğutma performansı sunan mobil iklimlendirme.",
+        image: "/multi-sistem-ic-uniteler/karavan-klimasi.png",
+        href: "/gree-ticari-klima-karavan"
     },
     {
-        name: "Gree Tavan Tipi Klima",
-        description: "Yüksek tavanlı alanlarda güçlü hava debisi ve esnek montaj imkanı sunan dayanıklı modeller.",
-        image: "/gree-ticari-kanal-tipi-klima.png",
-        href: "#"
+        name: "Kaset Tipi Ticari Klima",
+        description: "360 derece hava üfleme özelliğiyle ofis ve mağazalarda homojen iklimlendirme sağlayan kaset tipi çözümler.",
+        image: "/ticari/kaset-tipi.png",
+        href: "/gree-ticari-klima-kaset-tipi"
+    },
+    {
+        name: "Yer Tavan Tipi Ticari Klima",
+        description: "Hem yere hem tavana monte edilebilen, geniş alanlar için esnek ve güçlü iklimlendirme sağlayan modeller.",
+        image: "/ticari/konsol-tipi.png",
+        href: "/gree-ticari-klima-yer-tavan-tipi"
     }
 ];
 
