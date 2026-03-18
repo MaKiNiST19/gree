@@ -15,67 +15,78 @@ const products = [
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 30 kW",
         "stock_code": "GRS-CQ30PD/NHG3-E",
         "capacity": "30 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-30-kw"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-30-kw",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-30-kw-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 26 kW",
         "stock_code": "GRS-CQ26PD/NHG3-E",
         "capacity": "26 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-26-kw"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-26-kw",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-26-kw-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 22 kW",
         "stock_code": "GRS-CQ22PD/NHG3-E",
         "capacity": "22 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-22-kw"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-22-kw",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-23-kw-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 16 kW (Elektrikli Isıtıcılı)",
         "stock_code": "GRS-CQ16PD/NHG3-E",
         "capacity": "16 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-16-kw-heat"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-16-kw-heat",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-16-kw-elektrikli-isiticili-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 16 kW",
         "stock_code": "GRS-CQ16PD/NHG4-E",
         "capacity": "16 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-16-kw"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-16-kw",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-16-kw-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 12 kW (Elektrikli Isıtıcılı)",
         "stock_code": "GRS-CQ12PD/NHG3-E",
         "capacity": "12 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-12-kw-heat"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-12-kw-heat",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-12-kw-elektrikli-isiticili-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 12 kW",
         "stock_code": "GRS-CQ12PD/NHG4-E",
         "capacity": "12 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-12-kw"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-12-kw",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-12-kw-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 10 kW (Elektrikli Isıtıcılı)",
         "stock_code": "GRS-CQ10PD/NHG3-E",
         "capacity": "10 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-10-kw-heat"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-10-kw-heat",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-10-kw-elektrikli-isiticili-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 10 kW",
         "stock_code": "GRS-CQ10PD/NHG4-E",
         "capacity": "10 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-10-kw"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-10-kw",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-10-kw-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 8 kW (Elektrikli Isıtıcılı)",
         "stock_code": "GRS-CQ8.0PD/NHG3-E1",
         "capacity": "8 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-8-kw-heat"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-8-kw-heat",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-8-kw-elektrikli-isiticili-0.png"
     },
     {
         "name": "VERSATI 4 MONOBLOK 60 °C R32 WİFİ – 8 kW",
         "stock_code": "GRS-CQ8.0PD/NHG4-E1",
         "capacity": "8 kW",
-        "slug": "gree-isi-pompasi-versati-4-monoblok-8-kw"
+        "slug": "gree-isi-pompasi-versati-4-monoblok-8-kw",
+        "image": "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-8-kw-0.png"
     }
 ];
 
@@ -112,7 +123,7 @@ export default function CategoryPage() {
                                 
                                 <div className="relative z-10 bg-white border border-gray-100 rounded-[24px] overflow-hidden shadow-sm transition-all duration-500 group-hover:shadow-xl flex flex-col h-full p-6 text-center">
                                     <div className="relative w-full aspect-square mb-4 p-4 flex items-center justify-center bg-gray-50/50 rounded-xl overflow-hidden">
-                                        <img src="/isi-pompasi/versati-4-monoblok.png" alt={product.name} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />
+                                        <img src={product.image || "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-12-kw-elektrikli-isiticili-0.png"} alt={product.name} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />
                                     </div>
                                     <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#009be1] transition-colors duration-300 min-h-[50px] flex items-center justify-center">
                                         {product.name}

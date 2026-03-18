@@ -45,7 +45,7 @@ export default function ProductPage() {
                 </article>
             }
             breadcrumb={breadcrumb}
-            galleryImages={["/isi-pompasi/versati-3-split.png"]}
+            galleryImages={["/img/products/isi-pompasi/versati-3-split-tip-r32-60-c-wifi-16-kw-0.png"]}
             documents={[
                 { label: "Isı Pompası Katalog", icon: "/aphro/pdf-icon.webp", link: "/multi/Gree-Multi-Sistem-Klima-Katalogu.pdf" },
                 { label: "Kullanım Kılavuzu", icon: "/aphro/kilavuz-icon.png", link: "/multi/Gree-Multi-Sistem-Kullanim-Kilavuzu.pdf" }

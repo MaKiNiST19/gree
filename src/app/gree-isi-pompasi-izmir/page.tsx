@@ -14,13 +14,13 @@ const products = [
     {
         name: "Versati III Split Tip Isı Pompası",
         description: "İç ve dış ünite kombinasyonu ile aşırı soğuk iklimlerde bile yüksek performans sağlayan akıllı ısıtma sistemi.",
-        image: "/isi-pompasi/versati-3-split.png",
+        image: "/img/products/isi-pompasi/versati-3-split-tip-r32-60-c-wifi-12-kw-0.png",
         href: "/gree-isi-pompasi-versati-3-split"
     },
     {
         name: "Versati IV Monoblok Tip Isı Pompası",
         description: "Tüm sistem bileşenlerinin tek bir dış ünitede toplandığı, az yer kaplayan ve yüksek verimli monoblok çözüm.",
-        image: "/isi-pompasi/versati-4-monoblok.png",
+        image: "/img/products/isi-pompasi/versati-4-monoblok-60-c-r32-wifi-12-kw-elektrikli-isiticili-0.png",
         href: "/gree-isi-pompasi-versati-4-monoblok"
     }
 ];

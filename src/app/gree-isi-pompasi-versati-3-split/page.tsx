@@ -15,19 +15,22 @@ const products = [
         "name": "VERSATI-3 SPLİT TİP R32 60°C WİFİ – 16 kW",
         "stock_code": "GRS-CQ16Pd/NhH-E",
         "capacity": "16 kW",
-        "slug": "gree-isi-pompasi-versati-3-split-16-kw"
+        "slug": "gree-isi-pompasi-versati-3-split-16-kw",
+        "image": "/img/products/isi-pompasi/versati-3-split-tip-r32-60-c-wifi-16-kw-0.png"
     },
     {
         "name": "VERSATI-3 SPLİT TİP R32 60°C WİFİ – 12 kW",
         "stock_code": "GRS-CQ12Pd/NhH-E",
         "capacity": "12 kW",
-        "slug": "gree-isi-pompasi-versati-3-split-12-kw"
+        "slug": "gree-isi-pompasi-versati-3-split-12-kw",
+        "image": "/img/products/isi-pompasi/versati-3-split-tip-r32-60-c-wifi-12-kw-0.png"
     },
     {
         "name": "VERSATI-3 SPLİT TİP R32 60°C WİFİ – 8 kW",
         "stock_code": "GRS-CQ8.0Pd/NhH-E",
         "capacity": "8 kW",
-        "slug": "gree-isi-pompasi-versati-3-split-8-kw"
+        "slug": "gree-isi-pompasi-versati-3-split-8-kw",
+        "image": "/img/products/isi-pompasi/versati-3-split-tip-r32-60-c-wifi-8-kw-0.png"
     }
 ];
 
@@ -64,7 +67,7 @@ export default function CategoryPage() {
                                 
                                 <div className="relative z-10 bg-white border border-gray-100 rounded-[24px] overflow-hidden shadow-sm transition-all duration-500 group-hover:shadow-xl flex flex-col h-full p-6 text-center">
                                     <div className="relative w-full aspect-square mb-4 p-4 flex items-center justify-center bg-gray-50/50 rounded-xl overflow-hidden">
-                                        <img src="/isi-pompasi/versati-3-split.png" alt={product.name} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />
+                                        <img src={product.image || "/isi-pompasi/versati-3-split.png"} alt={product.name} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />
                                     </div>
                                     <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#009be1] transition-colors duration-300 min-h-[50px] flex items-center justify-center">
                                         {product.name}
