@@ -39,7 +39,7 @@ interface MultiProductLayoutProps {
     title: string;
     description: string;
     btu: string;
-    price: string;
+    price?: string;
     techSpecs: Spec[];
     seoContent: React.ReactNode;
     breadcrumb: any;
@@ -52,7 +52,7 @@ export default function MultiProductLayout({
     title,
     description,
     btu,
-    price,
+    price = "",
     techSpecs,
     seoContent,
     breadcrumb,

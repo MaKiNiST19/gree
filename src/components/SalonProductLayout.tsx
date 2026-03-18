@@ -28,7 +28,7 @@ interface SalonProductLayoutProps {
     title: string;
     description: string;
     btu: string;
-    price: string;
+    price?: string;
     installment: string;
     techSpecs: Spec[];
     seoContent: React.ReactNode;
@@ -43,7 +43,7 @@ export default function SalonProductLayout({
     title,
     description,
     btu,
-    price,
+    price = "",
     installment,
     techSpecs,
     seoContent,

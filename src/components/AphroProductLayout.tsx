@@ -40,7 +40,7 @@ interface AphroProductLayoutProps {
     title: string;
     description: string;
     btu: string;
-    price: string;
+    price?: string;
     installment: string;
     techSpecs: Spec[];
     seoContent: React.ReactNode;
@@ -53,7 +53,7 @@ export default function AphroProductLayout({
     title,
     description,
     btu,
-    price,
+    price = "",
     installment,
     techSpecs,
     seoContent,

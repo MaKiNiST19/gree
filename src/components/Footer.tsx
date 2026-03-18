@@ -78,7 +78,7 @@ export default function Footer() {
                                 <li><Link href="/izmir-gree-klima-bakim" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Klima Bakımı</Link></li>
                                 <li><Link href="/izmir-gree-klima-montaj" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Klima Montajı</Link></li>
                                 <li><Link href="/gree-ariza-kodlari" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Arıza Kodları</Link></li>
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Kapasite Hesabı</Link></li>
+                                <li><Link href="/btu-hesaplama" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">BTU Hesaplama (Kapasite)</Link></li>
                             </ul>
                         </div>
 
