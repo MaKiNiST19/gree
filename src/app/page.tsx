@@ -78,7 +78,7 @@ export default function Home() {
               { title: "Ticari Klimalar", url: "/ticari-gree-klimalar", image: "/gree-klima-ticari-kanal-tipi.jpg" },
               { title: "VRF Kima Sistemleri", url: "/", image: "/gree-klima-vrf.jpg" }
             ].map((category) => (
-              <div key={category.title} className="relative group h-[380px] sm:h-[420px] md:h-[480px] w-full">
+              <div key={category.title} className="relative group h-[450px] sm:h-[420px] md:h-[480px] w-full">
                 {/* 3rd background card */}
                 <div className="absolute inset-0 rounded-2xl border border-gray-200 bg-gray-50/50 transform translate-x-4 -translate-y-4 shadow-sm transition-all duration-500 ease-out group-hover:translate-x-6 group-hover:-translate-y-6" />
                 

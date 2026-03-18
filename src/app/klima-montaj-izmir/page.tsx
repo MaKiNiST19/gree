@@ -268,10 +268,10 @@ export default function MontajPage() {
                             İster yeni aldığınız Gree klimanız, ister yer değiştirecek mevcut cihazınız olsun; İzmir genelinde mühendislik vizyonuyla profesyonel montaj desteği sunuyoruz.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-6 relative z-10">
-                            <Link href="tel:+902322316583" className="px-10 py-5 bg-[#f39000] text-white font-bold rounded-xl shadow-2xl hover:scale-105 transition-transform flex items-center justify-center gap-3">
+                            <Link href="tel:+902322316583" className="fancy-button px-10 py-5 bg-[#f39000] text-white font-bold rounded-md shadow-2xl hover:scale-105 transition-transform flex items-center justify-center gap-3">
                                 <Settings className="w-5 h-5" /> Teknik Randevu Alın
                             </Link>
-                            <Link href="/iletisim" className="px-10 py-5 bg-white text-[#001f3f] font-bold rounded-xl shadow-2xl hover:scale-105 transition-transform flex items-center justify-center gap-3">
+                            <Link href="/iletisim" className="fancy-button px-10 py-5 bg-white text-[#001f3f] font-bold rounded-md shadow-2xl hover:scale-105 transition-transform flex items-center justify-center gap-3">
                                 İletişime Geçin <ArrowRight className="w-5 h-5" />
                             </Link>
                         </div>

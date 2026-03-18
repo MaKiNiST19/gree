@@ -8,7 +8,7 @@ import LocalBusinessSchema from '@/components/LocalBusinessSchema';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://greeklimaizmir.com'),
+  metadataBase: new URL('https://www.greeklimaizmir.com'),
   title: {
     template: '%s | Deytes İklimlendirme',
     default: 'Gree Klima İzmir Yetkili Bayi & Servis | Deytes İklimlendirme',

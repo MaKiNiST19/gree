@@ -27,7 +27,7 @@ export default function ProductSchema({ name, description, image, price, brand, 
         sku: sku || name.toLowerCase().replace(/\\s+/g, '-'),
         offers: {
             '@type': 'Offer',
-            url: typeof window !== 'undefined' ? window.location.href : 'https://greeklimaizmir.com',
+            url: typeof window !== 'undefined' ? window.location.href : 'https://www.greeklimaizmir.com',
             priceCurrency: 'TRY',
             price: cleanPrice,
             availability: inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',

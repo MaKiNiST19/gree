@@ -6,9 +6,9 @@ export default function LocalBusinessSchema() {
         '@graph': [
             {
                 '@type': 'HVACBusiness',
-                '@id': 'https://greeklimaizmir.com/#organization',
+                '@id': 'https://www.greeklimaizmir.com/#organization',
                 name: 'Deytes İklimlendirme - İzmir Gree Klima',
-                url: 'https://greeklimaizmir.com',
+                url: 'https://www.greeklimaizmir.com',
                 description: 'İzmir genelinde Gree klima yetkili bayi, profesyonel montaj, arıza onarım ve detaylı bakım servis hizmetleri.',
                 telephone: '+902322316583',
                 address: {
@@ -36,12 +36,12 @@ export default function LocalBusinessSchema() {
             },
             {
                 '@type': 'WebSite',
-                '@id': 'https://greeklimaizmir.com/#website',
-                url: 'https://greeklimaizmir.com',
+                '@id': 'https://www.greeklimaizmir.com/#website',
+                url: 'https://www.greeklimaizmir.com',
                 name: 'Deytes İklimlendirme',
                 potentialAction: {
                     '@type': 'SearchAction',
-                    target: 'https://greeklimaizmir.com/arama?q={search_term_string}',
+                    target: 'https://www.greeklimaizmir.com/arama?q={search_term_string}',
                     'query-input': 'required name=search_term_string',
                 },
             },

@@ -101,7 +101,7 @@ export default function Header() {
     return (
         <>
             {/* The Floating Pill Header */}
-            <div className="absolute lg:fixed top-3 md:top-5 w-full left-0 z-50 px-3 sm:px-6 md:px-8 lg:px-12 flex justify-center pointer-events-none">
+            <div className="fixed top-3 md:top-5 w-full left-0 z-50 px-3 sm:px-6 md:px-8 lg:px-12 flex justify-center pointer-events-none">
                 <header className="relative bg-white/95 backdrop-blur-sm rounded-lg md:rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] pointer-events-auto w-full px-3 sm:px-4 md:px-6 lg:px-10 border border-gray-100">
                     <div className="flex justify-between items-center h-[60px] md:h-[72px]">
                         <div className="flex-1 flex justify-start items-center space-x-2 sm:space-x-4 min-w-0">
@@ -405,10 +405,13 @@ export default function Header() {
                         <Link 
                             href="tel:+902322316583"
                             onClick={() => closeAllMenus()}
-                            className="fancy-button flex items-center justify-center gap-2 bg-[#009be1] text-white font-bold py-3.5 px-6 rounded-xl text-[15px] shadow-lg w-full"
+                            className="fancy-button flex items-center justify-center gap-3 bg-[#009be1] text-white font-bold py-3.5 px-6 rounded-xl shadow-lg w-full"
                         >
-                            <PhoneCall className="w-4 h-4" />
-                            Hemen Arayın: 0 232 231 65 83
+                            <PhoneCall className="w-5 h-5 shrink-0" />
+                            <div className="flex flex-col items-center leading-tight">
+                                <span className="text-[12px] opacity-90 uppercase tracking-wider">Hemen Arayın</span>
+                                <span className="text-[18px] tracking-tight">0 232 231 65 83</span>
+                            </div>
                         </Link>
                         <div className="flex items-center justify-center gap-6 mt-4">
                             <a href="https://www.instagram.com/deytesiklimlendirme/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#009be1] transition-colors">

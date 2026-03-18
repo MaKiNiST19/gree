@@ -205,7 +205,7 @@ export default function SatisKesifPage() {
                             <p className="text-gray-600 mb-8 max-w-xl mx-auto font-medium leading-relaxed">
                                 Eviniz veya iş yeriniz için en verimli iklimlendirme planını bugünden oluşturun. İzmir geneli ÜCRETSİZ keşif fırsatını kaçırmayın.
                             </p>
-                            <Link href="tel:+902322316583" className="inline-flex items-center gap-3 bg-[#009be1] text-white font-bold py-4 px-10 rounded-xl shadow-lg hover:bg-[#007bb3] transition-all transform hover:-translate-y-1">
+                            <Link href="tel:+902322316583" className="fancy-button inline-flex items-center gap-3 bg-[#009be1] text-white font-bold py-4 px-10 rounded-md shadow-lg transition-all transform hover:-translate-y-1">
                                 <Calculator className="w-5 h-5" /> Hemen Ücretsiz Keşif Randevusu Alın <ArrowRight className="w-5 h-5" />
                             </Link>
                         </div>

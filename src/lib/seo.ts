@@ -4,15 +4,20 @@ interface SEOProps {
   title: string;
   description: string;
   pathname: string;
+  keywords?: string[];
 }
 
-export function generateSEO({ title, description, pathname }: SEOProps): Metadata {
-  const url = `https://greeklimaizmir.com${pathname === '/' ? '' : pathname}`;
+export function generateSEO({ title, description, pathname, keywords = [] }: SEOProps): Metadata {
+  const baseUrl = 'https://www.greeklimaizmir.com';
+  const url = `${baseUrl}${pathname === '/' ? '' : pathname}`;
+  const defaultKeywords = ['Gree Klima İzmir', 'İzmir Gree Yetkili Bayi', 'Klima Montaj İzmir', 'Klima Bakım İzmir', 'Gree Klima Fiyatları'];
+  
   return {
     title,
     description,
+    keywords: keywords.length > 0 ? keywords : defaultKeywords,
     alternates: {
-      canonical: pathname,
+      canonical: url,
     },
     openGraph: {
       title,
@@ -22,6 +27,11 @@ export function generateSEO({ title, description, pathname }: SEOProps): Metadat
       siteName: 'Deytes İklimlendirme',
       locale: 'tr_TR',
     },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    }
   };
 }
 
@@ -33,13 +43,13 @@ export function generateBreadcrumbSchema(items: { name: string; url: string }[])
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://greeklimaizmir.com${item.url}`,
+      item: `https://www.greeklimaizmir.com${item.url === '/' ? '' : item.url}`,
     })),
   };
 }
 
 export function generateArticleSchema(title: string, description: string, pathname: string, datePublished?: string, dateModified?: string) {
-  const url = `https://greeklimaizmir.com${pathname}`;
+  const url = `https://www.greeklimaizmir.com${pathname}`;
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -58,7 +68,7 @@ export function generateArticleSchema(title: string, description: string, pathna
       name: 'Deytes İklimlendirme',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://greeklimaizmir.com/logo.png' // Adjust to actual logo path later
+        url: 'https://www.greeklimaizmir.com/logo.png' // Adjust to actual logo path later
       }
     },
     datePublished: datePublished || new Date().toISOString(),

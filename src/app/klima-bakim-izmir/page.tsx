@@ -226,7 +226,7 @@ export default function BakimPage() {
                             <p className="text-blue-100/70 mb-10 max-w-xl mx-auto font-medium leading-relaxed italic uppercase text-sm tracking-wider">
                                 Klimanızı profesyonel ellere teslim edin, İzmir'in sıcaklarında sürpriz arızalarla karşılaşmayın.
                             </p>
-                            <Link href="tel:+902322316583" className="inline-flex items-center gap-3 bg-[#f39000] text-white font-bold py-5 px-12 rounded-md shadow-[0_10px_40px_rgba(243,144,0,0.3)] transition-all hover:scale-105 hover:shadow-[0_15px_60px_rgba(243,144,0,0.4)]">
+                            <Link href="tel:+902322316583" className="fancy-button inline-flex items-center gap-3 bg-[#f39000] text-white font-bold py-5 px-12 rounded-md shadow-[0_10px_40px_rgba(243,144,0,0.3)] transition-all hover:scale-105 hover:shadow-[0_15px_60px_rgba(243,144,0,0.4)]">
                                 <Activity className="w-5 h-5" /> Ücretsiz Danışmanlık ve Randevu <ArrowRight className="w-5 h-5" />
                             </Link>
                         </div>

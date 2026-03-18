@@ -137,21 +137,59 @@ export const RatingBadge = ({ title, subtitle, className = '', ...props }: Ratin
     );
 };
 
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
 export default function HeroBadges() {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const badges = [
+        { title: "Yetkili Gree Bayi", subtitle: "Satış & Profesyonel Montaj" },
+        { title: "Gree Teknik Destek", subtitle: "Hata Kodları & Teknik Bilgi" },
+        { title: "Ücretsiz Keşif", subtitle: "Doğru Verimlilik Analizi" }
+    ];
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentIndex((prev) => (prev + 1) % badges.length);
+        }, 2000);
+        return () => clearInterval(timer);
+    }, [badges.length]);
+
     return (
         <div className="flex flex-col items-center w-full relative z-30 px-3 sm:px-4 mt-[-50px] sm:mt-[-70px]">
-            <div className="grid grid-cols-1 sm:grid-cols-3 sm:divide-x sm:divide-gray-200 mb-4 sm:mb-6 bg-white/95 backdrop-blur-md p-4 sm:p-6 md:p-8 rounded-2xl shadow-xl border border-gray-100 max-w-7xl w-full">
-                <div className="flex justify-center py-2 sm:py-0">
-                    <RatingBadge title="Yetkili Gree Bayi" subtitle="Satış & Profesyonel Montaj" />
+            <div className="bg-white/95 backdrop-blur-md p-4 sm:p-6 md:p-8 rounded-2xl shadow-xl border border-gray-100 max-w-7xl w-full">
+                
+                {/* Mobile Carousel */}
+                <div className="sm:hidden relative h-20 overflow-hidden flex items-center justify-center">
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            key={currentIndex}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -20 }}
+                            transition={{ duration: 0.5, ease: "easeInOut" }}
+                            className="absolute inset-0 flex items-center justify-center w-full"
+                        >
+                            <RatingBadge 
+                                title={badges[currentIndex].title} 
+                                subtitle={badges[currentIndex].subtitle} 
+                                className="w-full"
+                            />
+                        </motion.div>
+                    </AnimatePresence>
                 </div>
-                <div className="flex justify-center items-center py-2 sm:py-0">
-                    <RatingBadge title="Gree Teknik Destek" subtitle="Hata Kodları & Teknik Bilgi" />
+
+                {/* Desktop Grid */}
+                <div className="hidden sm:grid sm:grid-cols-3 sm:divide-x sm:divide-gray-200 w-full font-sans">
+                    {badges.map((badge, idx) => (
+                        <div key={idx} className="flex justify-center items-center py-2 sm:py-0 px-4">
+                            <RatingBadge title={badge.title} subtitle={badge.subtitle} />
+                        </div>
+                    ))}
                 </div>
-                <div className="flex justify-center py-2 sm:py-0">
-                    <RatingBadge title="Ücretsiz Keşif" subtitle="Doğru Verimlilik Analizi" />
-                </div>
+
             </div>
-            <h2 className="text-gray-600 tracking-wider font-semibold uppercase bg-white/80 py-2 px-4 sm:px-6 rounded-full backdrop-blur-sm text-[10px] sm:text-[12px]">
+            <h2 className="text-gray-600 tracking-wider font-semibold uppercase bg-white/80 py-2 px-4 sm:px-6 rounded-full backdrop-blur-sm text-[10px] sm:text-[12px] mt-4 sm:mt-6">
                 İzmir'de Güvenilir Gree Klima Hizmeti
             </h2>
         </div>

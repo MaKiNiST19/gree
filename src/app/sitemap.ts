@@ -3,7 +3,7 @@ import { districts } from '@/lib/districts';
 import { allBlogPosts } from '@/lib/blogData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://greeklimaizmir.com';
+    const baseUrl = 'https://www.greeklimaizmir.com';
 
     const staticRoutes = [
         '',

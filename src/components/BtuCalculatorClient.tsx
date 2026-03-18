@@ -107,7 +107,7 @@ export default function BtuCalculatorClient() {
                                 ))}
                             </div>
                             <div className="mt-12 flex gap-4 w-full justify-center max-w-sm">
-                                <button onClick={nextStep} className="flex-1 px-6 py-4 rounded-xl text-white bg-[#009be1] hover:bg-[#007cb5] shadow-lg font-bold flex justify-center items-center transition-colors">
+                                <button onClick={nextStep} className="fancy-button flex-1 px-8 py-4 rounded-md text-white bg-[#009be1] shadow-lg font-bold flex justify-center items-center transition-all">
                                     Devam Et <ChevronRight className="w-5 h-5 ml-2" />
                                 </button>
                             </div>
@@ -135,10 +135,10 @@ export default function BtuCalculatorClient() {
                             </div>
                             
                             <div className="mt-16 flex gap-4 w-full justify-center max-w-sm">
-                                <button onClick={prevStep} className="px-6 py-4 rounded-xl text-gray-600 bg-gray-100 hover:bg-gray-200 font-semibold flex items-center transition-colors">
+                                <button onClick={prevStep} className="fancy-button px-8 py-4 rounded-md text-gray-600 bg-gray-100 hover:bg-gray-200 font-semibold flex items-center transition-all">
                                     <ChevronLeft className="w-5 h-5 mr-1" /> Geri
                                 </button>
-                                <button onClick={nextStep} className="flex-1 px-6 py-4 rounded-xl text-white bg-[#009be1] hover:bg-[#007cb5] shadow-lg font-bold flex justify-center items-center transition-colors">
+                                <button onClick={nextStep} className="fancy-button flex-1 px-8 py-4 rounded-md text-white bg-[#009be1] shadow-lg font-bold flex justify-center items-center transition-all">
                                     Devam Et <ChevronRight className="w-5 h-5 ml-2" />
                                 </button>
                             </div>
@@ -158,10 +158,10 @@ export default function BtuCalculatorClient() {
                             </div>
 
                             <div className="mt-16 flex gap-4 w-full justify-center max-w-sm">
-                                <button onClick={prevStep} className="px-6 py-4 rounded-xl text-gray-600 bg-gray-100 hover:bg-gray-200 font-semibold flex items-center transition-colors">
+                                <button onClick={prevStep} className="fancy-button px-8 py-4 rounded-md text-gray-600 bg-gray-100 hover:bg-gray-200 font-semibold flex items-center transition-all">
                                     <ChevronLeft className="w-5 h-5 mr-1" /> Geri
                                 </button>
-                                <button onClick={nextStep} className="flex-1 px-6 py-4 rounded-xl text-white bg-[#009be1] hover:bg-[#007cb5] shadow-lg font-bold flex justify-center items-center transition-colors">
+                                <button onClick={nextStep} className="fancy-button flex-1 px-8 py-4 rounded-md text-white bg-[#009be1] shadow-lg font-bold flex justify-center items-center transition-all">
                                     Devam Et <ChevronRight className="w-5 h-5 ml-2" />
                                 </button>
                             </div>
@@ -188,13 +188,13 @@ export default function BtuCalculatorClient() {
                             </div>
 
                             <div className="mt-12 flex gap-4 w-full justify-center max-w-xl">
-                                <button onClick={prevStep} className="px-6 py-4 rounded-xl text-gray-600 bg-gray-100 hover:bg-gray-200 font-semibold flex items-center transition-colors">
+                                <button onClick={prevStep} className="fancy-button px-8 py-4 rounded-md text-gray-600 bg-gray-100 hover:bg-gray-200 font-semibold flex items-center transition-all">
                                     <ChevronLeft className="w-5 h-5 mr-1" /> Geri
                                 </button>
                                 <button 
                                     onClick={calculateResult} 
                                     disabled={!sunFactor}
-                                    className={`flex-1 px-6 py-4 rounded-xl font-bold flex justify-center items-center transition-all shadow-lg ${sunFactor ? 'bg-[#f39000] hover:bg-[#d67e00] text-white scale-100' : 'bg-gray-300 text-gray-500 cursor-not-allowed scale-95'}`}
+                                    className={`fancy-button flex-1 px-8 py-4 rounded-md font-bold flex justify-center items-center transition-all shadow-lg ${sunFactor ? 'bg-[#f39000] text-white scale-100' : 'bg-gray-300 text-gray-500 cursor-not-allowed scale-95'}`}
                                 >
                                     Sonucu Göster <ArrowRight className="w-5 h-5 ml-2" />
                                 </button>
@@ -228,7 +228,7 @@ export default function BtuCalculatorClient() {
                                         Uyarı: 48.000 BTU üzerindeki ihtiyaçlarınız için Duvar Tipi değil, Kaset, Salon veya VRF Multi Sistemler önerilmektedir. Mühendislik keşfimiz için bizi arayın.
                                     </div>
                                 ) : (
-                                    <Link href="/gree-klima-modelleri" className="fancy-button bg-[#009be1] text-white font-semibold py-4 px-10 rounded-xl shadow-xl hover:shadow-blue-500/30 inline-flex items-center gap-2 transform transition-all hover:-translate-y-1">
+                                    <Link href="/gree-klima-modelleri" className="fancy-button bg-[#009be1] text-white font-semibold py-4 px-10 rounded-md shadow-xl hover:shadow-blue-500/30 inline-flex items-center gap-2 transform transition-all hover:-translate-y-1">
                                         Bu Kapasitedeki Cihazları İncele <ArrowRight className="w-5 h-5" />
                                     </Link>
                                 )}
