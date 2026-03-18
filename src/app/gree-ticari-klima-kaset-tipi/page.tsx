@@ -78,11 +78,6 @@ export default function CategoryPage() {
                                     <div className="relative w-full aspect-square mb-4 p-4 flex items-center justify-center bg-gray-50/50 rounded-xl overflow-hidden">
                                         <img 
                                             src={product.image || "/ticari/kaset-tipi.png"} 
-                                            onError={(e) => {
-                                                const target = e.target as HTMLImageElement;
-                                                const fileName = product.name.replace(/ /g, '-').replace(/[^w-]/g, '') + '.png';
-                                                target.src = '/multi-sistem-ic-uniteler/' + fileName;
-                                            }}
                                             alt={product.name} 
                                             className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" 
                                         />
