@@ -43,7 +43,7 @@ export default function ProductPage() {
                 </article>
             }
             breadcrumb={breadcrumb}
-            galleryImages={["/ticari/kanalli-tip.png"]}
+            galleryImages={["/img/products/ticari/kanal-tipi-inverter-klima-48000-btu-h-0.jpg", "/img/products/ticari/kanal-tipi-inverter-klima-48000-btu-h-1.jpg"]}
             documents={[
                 { label: "Ticari Katalog", icon: "/aphro/pdf-icon.webp", link: "/multi/Gree-Multi-Sistem-Klima-Katalogu.pdf" },
                 { label: "Kullanım Kılavuzu", icon: "/aphro/kilavuz-icon.png", link: "/multi/Gree-Multi-Sistem-Kullanim-Kilavuzu.pdf" }

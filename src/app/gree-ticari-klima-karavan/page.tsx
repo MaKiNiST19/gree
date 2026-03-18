@@ -59,7 +59,7 @@ export default function CategoryPage() {
                                 <div className="relative z-10 bg-white border border-gray-100 rounded-[24px] overflow-hidden shadow-sm transition-all duration-500 group-hover:shadow-xl flex flex-col h-full p-6 text-center">
                                     <div className="relative w-full aspect-square mb-4 p-4 flex items-center justify-center bg-gray-50/50 rounded-xl overflow-hidden">
                                         <img 
-                                            src={product.image || "/multi/karavan.png"} 
+                                            src={product.image || "/ticari/kanalli-tip.png"} 
                                             alt={product.name} 
                                             className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" 
                                         />

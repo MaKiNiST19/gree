@@ -28,8 +28,33 @@ export default function IzmirKlimaBakimPage() {
             <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
             <FAQSchema faqs={faqs} />
 
+            {/* Hero Section */}
+            <section className="relative -mt-[84px] md:-mt-[92px] pt-[180px] pb-24 bg-[#001f3f] overflow-hidden">
+                <div className="absolute inset-0 opacity-40">
+                    <img src="/gree-klima-bakim-temizlik.jpg" alt="Gree Klima Bakım İzmir" className="w-full h-full object-cover" />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-b from-[#001f3f]/80 via-[#001f3f]/60 to-[#001f3f]/80" />
+                <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#009be1]/10 rounded-full blur-3xl" />
+                <div className="max-w-[1400px] mx-auto px-6 relative z-10 text-center">
+                    <span className="inline-block py-1 px-4 rounded-full bg-blue-500/10 border border-blue-400/20 text-[#009be1] text-xs md:text-sm font-bold tracking-widest uppercase mb-6">
+                        TEKNİK BAKIM & TEMİZLİK
+                    </span>
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-8 tracking-tight leading-tight">
+                        Periyodik Klima <span className="text-[#009be1]">Bakım ve</span> Temizlik Hizmeti
+                    </h1>
+                    <p className="text-lg md:text-xl text-blue-100/80 max-w-3xl mx-auto mb-10 leading-relaxed font-medium">
+                        Sağlıklı bir iç hava kalitesi ve düşük elektrik faturası için yılda en az bir kez profesyonel tazyikli yıkama bakımı şarttır. Deytes ile derinlemesine temizlik.
+                    </p>
+                    <div className="flex flex-wrap justify-center gap-4">
+                        <Link href="tel:+902322316583" className="fancy-button bg-[#f39000] text-white font-bold py-4 px-10 rounded-md shadow-xl transition-transform hover:scale-105">
+                            Bakım Randevusu Alın
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
             <article className="py-20 max-w-4xl mx-auto px-4 prose prose-lg lg:prose-xl text-gray-700">
-                <h1 className="text-4xl text-blue-900 font-bold mb-6">İzmir Klima Bakım Otoritesi: Evdeki Görünmez Tehdide Tazyikli Son</h1>
+                <h2 className="text-4xl text-blue-900 font-bold mb-6">İzmir Klima Bakım Otoritesi: Evdeki Görünmez Tehdide Tazyikli Son</h2>
                 <p>
                     Duvarınızda asılı duran klima, Ege'nin kavurucu sıcaklarından kurtulmak veya kışın doğalgaz kullanmadan hızla ısınmak için eşsiz bir icat gibi görünebilir. Ancak iç cihaz aslında sürekli olarak odanızın tüm atmosferini fırıl fırıl dönen o santrifüj salyangoz fandan geçirip filtrelere, yaprak misali incecik ısı transferi yapılan eşanjörlere (peteklere) basar. İçeride biriken evcil hayvan tüyü, halı tozu ve solunumla gelen dış mikroplar, yoğuşma suyunun nemiyle birleşerek yaz boyu "bakteri tarlasına" dönüşür. <strong>İzmir klima bakım</strong> servisinde; profesyonel solüsyonlu antibakteriyel tedavi ile bu tehdidi söküp atıyoruz.
                 </p>

@@ -6,6 +6,7 @@ import FAQSchema from '@/components/FAQSchema';
 import Link from 'next/link';
 import RelatedBlogPosts from '@/components/RelatedBlogPosts';
 import { districts } from '@/lib/districts';
+import ArticleSchemaBlock from '@/components/ArticleSchemaBlock';
 
 type Props = {
     params: { slug: string };
@@ -56,6 +57,12 @@ export default function BlogPostDetail({ params }: Props) {
     return (
         <>
             <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+            <ArticleSchemaBlock 
+                title={post.title} 
+                description={post.excerpt} 
+                image={post.image || '/blog-placeholder.jpg'} 
+                url={`https://greeklimaizmir.com/blog/${post.slug}`} 
+            />
             {post.faqs.length > 0 && <FAQSchema faqs={post.faqs} />}
 
             <section className="bg-blue-900 py-24 px-4 text-center">
@@ -91,7 +98,7 @@ export default function BlogPostDetail({ params }: Props) {
                     {post.contentBlocks.map((block, idx) => (
                         <div key={idx} className="my-10">
                             <h2 className="text-2xl text-blue-800 font-bold mb-4">{block.heading}</h2>
-                            <p className="leading-relaxed">{block.content}</p>
+                            <p className="leading-relaxed" dangerouslySetInnerHTML={{ __html: block.content }} />
                         </div>
                     ))}
 

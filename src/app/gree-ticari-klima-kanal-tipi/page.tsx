@@ -13,18 +13,21 @@ export const metadata = generateSEO({
 const products = [
     {
         "name": "Kanal Tipi Inverter Klima - 60000 BTU/h",
+        "image": "/img/products/ticari/kanal-tipi-inverter-klima-60000-btu-h-0.jpg",
         "stock_code": "GUD160PH1/A-S",
         "capacity": "60.000 BTU/h",
         "slug": "gree-ticari-klima-kanal-tipi-60000-btu"
     },
     {
         "name": "Kanal Tipi Inverter Klima - 42000 BTU/h",
+        "image": "/img/products/ticari/kanal-tipi-inverter-klima-48000-btu-h-0.jpg",
         "stock_code": "GUD125PH1/A-S",
         "capacity": "42.000 BTU/h",
         "slug": "gree-ticari-klima-kanal-tipi-42000-btu"
     },
     {
         "name": "Kanal Tipi Inverter Klima - 24000 BTU/h",
+        "image": "/img/products/ticari/kanal-tipi-inverter-klima-24000-btu-h-1.jpg",
         "stock_code": "GUD71PH1/A-S",
         "capacity": "24.000 BTU/h",
         "slug": "gree-ticari-klima-kanal-tipi-24000-btu"

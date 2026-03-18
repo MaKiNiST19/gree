@@ -58,10 +58,12 @@ export default function SalonProductLayout({
     const [activeImageIndex, setActiveImageIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [lightboxImages, setLightboxImages] = useState<string[]>(galleryImages);
+import ProductSchema from '@/components/ProductSchema';
 
     return (
         <div className="bg-white">
             <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+            <ProductSchema name={title} description={description} image={galleryImages?.[0] || ''} price={price} brand="Gree" />
 
             <section className="relative pt-16 pb-24 lg:pt-24 lg:pb-32 overflow-hidden bg-[#fafafa]">
                 <div className="max-w-[1400px] mx-auto px-6 lg:px-12">

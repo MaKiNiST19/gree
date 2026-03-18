@@ -58,8 +58,11 @@ export default function MontajPage() {
 
             {/* Hero Section */}
             <section className="relative -mt-[84px] md:-mt-[92px] pt-[180px] pb-24 bg-[#001f3f] overflow-hidden">
-                <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
-                <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#009be1]/20 rounded-full blur-3xl" />
+                <div className="absolute inset-0 opacity-40">
+                    <img src="/gree-klima-kurulum.jpg" alt="Klima Montaj" className="w-full h-full object-cover" />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-b from-[#001f3f]/80 via-[#001f3f]/60 to-[#001f3f]/80" />
+                <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#009be1]/20 rounded-full blur-3xl opacity-50" />
                 <div className="max-w-[1400px] mx-auto px-6 relative z-10 text-center">
                     <span className="inline-block py-1 px-4 rounded-full bg-blue-500/10 border border-blue-400/20 text-[#009be1] text-xs md:text-sm font-bold tracking-widest uppercase mb-6">
                         TEKNİK KURULUM & MONTAJ

@@ -34,8 +34,11 @@ export default function SatisKesifPage() {
 
             {/* Hero Section */}
             <section className="relative -mt-[84px] md:-mt-[92px] pt-[180px] pb-24 bg-[#001f3f] overflow-hidden">
-                <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
-                <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#009be1]/20 rounded-full blur-3xl" />
+                <div className="absolute inset-0 opacity-40">
+                    <img src="/gree-klima-satan-firma.jpg" alt="Gree Klima Satış" className="w-full h-full object-cover" />
+                </div>
+                <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#001f3f] to-transparent" />
+                <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#009be1]/10 rounded-full blur-3xl" />
                 <div className="max-w-[1400px] mx-auto px-6 relative z-10 text-center">
                     <span className="inline-block py-1 px-4 rounded-full bg-blue-500/10 border border-blue-400/20 text-[#009be1] text-xs md:text-sm font-bold tracking-widest uppercase mb-6">
                         YETKİLİ SATIŞ & KEŞİF

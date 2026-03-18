@@ -29,14 +29,14 @@ const vrfSeries = [
         tag: "Yeni Nesil",
         description: "5. Nesil DC Inverter teknolojisi ve CAN-bus haberleşme altyapısı ile en uç koşullarda bile kesintisiz performans.",
         features: ["-25°C Isıtma Desteği", "CAN-bus Haberleşme", "Yüksek Enerji Tasarrufu"],
-        image: "/vrf/gmv6.jpg",
+        image: "/vrf/gmv6.png",
         color: "bg-blue-600"
     },
     {
         id: 'gmv5',
         name: "GMV 5 Serisi",
         tag: "Güvenilir & Verimli",
-        description: "All DC Inverter kompresör ve hassas sıcaklık kontrolü ile konforun zirvesini temsil eden endüstri standardı.",
+        description: "All DC Inverter kompresör and hassas sıcaklık kontrolü ile konforun zirvesini temsil eden endüstri standardı.",
         features: ["±0.5°C Sıcaklık Kontrolü", "Sessiz Gece Modu", "Permasyn Motor"],
         image: "/vrf/gmv5.png",
         color: "bg-[#009be1]"
@@ -64,8 +64,8 @@ export default function VRFKlimaPage() {
 
             {/* Premium Hero Section */}
             <section className="relative -mt-[84px] md:-mt-[92px] w-full min-h-[600px] flex items-center overflow-hidden bg-[#001f3f]">
-                <div className="absolute inset-0 opacity-20">
-                    <img src="/vrf/gmv6.jpg" alt="VRF Background" className="w-full h-full object-cover blur-sm scale-110" />
+                <div className="absolute inset-0 opacity-40">
+                    <img src="/vrfhero.jpg" alt="VRF Background" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-r from-[#001f3f] via-[#001f3f]/90 to-transparent" />
                 
@@ -177,7 +177,7 @@ export default function VRFKlimaPage() {
                         </div>
                         <div className="relative">
                             <div className="absolute -inset-4 bg-blue-100/50 rounded-[40px] blur-2xl opacity-50" />
-                            <img src="/vrf/gmv6.jpg" alt="VRF Solution" className="relative z-10 w-full h-auto rounded-[40px] shadow-2xl" />
+                            <img src="/gree-vrf-montaj.jpg" alt="VRF Solution" className="relative z-10 w-full h-auto rounded-[40px] shadow-2xl" />
                         </div>
                     </div>
                 </div>

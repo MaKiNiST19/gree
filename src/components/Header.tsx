@@ -94,7 +94,8 @@ export default function Header() {
     const hizmetlerItems = [
         { title: "Gree Klima Satış & Ücretsiz Keşif", href: "/gree-klima-satis-izmir", desc: "İhtiyacınıza en uygun modeli birlikte seçelim." },
         { title: "Profesyonel Montaj Hizmeti", href: "/klima-montaj-izmir", desc: "Vakumlu ve standartlara uygun temiz kurulum." },
-        { title: "Periyodik Bakım & Temizlik", href: "/klima-bakim-izmir", desc: "Verimlilik artışı ve hijyenik hava akışı için." }
+        { title: "Periyodik Bakım & Temizlik", href: "/klima-bakim-izmir", desc: "Verimlilik artışı ve hijyenik hava akışı için." },
+        { title: "BTU Hesaplama Motoru", href: "/btu-hesaplama", desc: "Mekanınıza en uygun klima kapasitesini bulun." }
     ];
 
     return (

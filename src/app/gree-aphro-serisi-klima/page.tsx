@@ -39,21 +39,21 @@ export default function SeriesPage() {
                 
                 <div className="max-w-[1400px] mx-auto px-6 relative z-10 w-full">
                     <div className="max-w-2xl">
-                        <span className="inline-block py-1 px-4 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-bold tracking-widest uppercase mb-6 backdrop-blur-md">
-                            GREE SERİ DETAYI
+                        <span className="inline-block py-1 px-4 rounded-full bg-red-500/20 border border-red-400/30 text-red-100 text-[10px] font-bold tracking-[0.2em] uppercase mb-6 backdrop-blur-md">
+                            SATIŞI DURDURULMUŞTUR
                         </span>
                         <h1 className="text-4xl md:text-7xl font-extrabold text-white mb-8 tracking-tight leading-tight drop-shadow-2xl">
                             Aphro Serisi
                         </h1>
                         <p className="text-lg md:text-xl text-white/90 mb-10 leading-relaxed font-medium drop-shadow-lg">
-                            Ekonomik, dayanıklı ve yüksek verimli Gree teknolojisinin giriş seviyesi profesyonel çözümü. G10 Inverter teknolojisi ile donatılmıştır.
+                            Gree Aphro modelleri için İzmir satış desteğimiz sonlanmıştır. Mevcut Aphro arayışınız için benzer ekonomik segmentte olan ancak daha yeni teknolojiye sahip <strong>Gree Pular</strong> serisini incelemenizi öneririz.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <div className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-lg border border-white/20 text-white text-sm font-bold shadow-xl">
-                                <Zap className="w-4 h-4 text-[#f39000]" /> G10 Inverter
+                                <Zap className="w-4 h-4 text-[#f39000]" /> Yeni Nesil Pular
                             </div>
                             <div className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-lg border border-white/20 text-white text-sm font-bold shadow-xl">
-                                <ShieldCheck className="w-4 h-4 text-green-400" /> Yetkili Bayi
+                                <ShieldCheck className="w-4 h-4 text-green-400" /> Hemen İncele
                             </div>
                         </div>
                     </div>

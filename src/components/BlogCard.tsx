@@ -12,7 +12,7 @@ export default function BlogCard({ post }: { post: BlogPost }) {
                 {/* Image Container */}
                 <div className="relative aspect-[16/9] overflow-hidden bg-gray-100">
                     <img 
-                        src={post.image || `https://picsum.photos/seed/${post.slug}/800/450`} 
+                        src={post.image || "/blog-placeholder.jpg"} 
                         alt={post.title} 
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />

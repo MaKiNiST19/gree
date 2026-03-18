@@ -62,10 +62,12 @@ export default function AphroProductLayout({
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [lightboxImages, setLightboxImages] = useState<string[]>(galleryImages);
     const [isRemoteModalOpen, setIsRemoteModalOpen] = useState(false);
+import ProductSchema from '@/components/ProductSchema';
 
     return (
         <div className="bg-white">
             <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+            <ProductSchema name={title} description={description} image={galleryImages?.[0] || ''} price={price} brand="Gree" />
 
             {/* Premium Product Hero */}
             <section className="relative pt-16 pb-24 lg:pt-24 lg:pb-32 overflow-hidden bg-[#fafafa]">

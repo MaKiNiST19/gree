@@ -33,9 +33,9 @@ export default function DuvarTipiSeoArticle() {
         Performans ve estetiğin mükemmel dengesi olarak adlandırabileceğimiz Fairy serisi, kavisli yüzeyi ve yanlarındaki metalik detaylarla 'premium' bir his verir. Beyaz ve antrasit gri renk seçenekleri bulunur. Gree Fairy'in en önemli avantajlarından biri, soğuk plazma teknolojisi (Cold Plasma) sayesinde havadaki bakteri, virüs ve istenmeyen kokuları %90'ın üzerinde yok edebilmesidir. Sağlık odaklı bir <Link href="/gree-fairy-serisi-klima" className="text-blue-600 hover:underline">klima arayanlar</Link> için ideal bir tercihtir.
       </p>
 
-      <h4 className="text-xl font-bold mt-6 mb-3">3. Gree Aphro Serisi</h4>
+      <h4 className="text-xl font-bold mt-6 mb-3">3. Gree Aphro Serisi (Satış Dışı)</h4>
       <p>
-        Aphro serisi, Fiyat/Performans arayan kullanıcıların favorisidir. Sağlamlığı ve uzun ömürlülüğü ile tanınan Aphro, 7 fan hız kademesi ile kullanıcısına oldukça esnek bir hava debisi kontrolü sunar. Üstelik sessiz uyku modu sayesinde gece kullanımlarında yatak odaları için vazgeçilmezdir. Detaylar için <Link href="/gree-aphro-serisi-klima" className="text-blue-600 hover:underline">Aphro serisi sayfamızı</Link> ziyaret edebilirsiniz.
+        Aphro serisi, uzun yıllar Fiyat/Performans arayan kullanıcıların favorisi olmuştur. Sağlamlığı ve 7 fan hız kademesi ile tanınan bu seri için İzmir geneli yeni satış desteğimiz tamamlanmıştır. Aphro serisi arayan veya trafik çeken kullanıcılarımıza, bu serinin yerini alan ve çok daha gelişmiş Wi-Fi donanımı ile gelen <Link href="/gree-pular-serisi-klima" className="text-blue-600 hover:underline">Gree Pular serisini</Link> incelemelerini öneriyoruz. Pular, Aphro'nun sunduğu ekonomikliği daha yüksek enerji verimliliği ile birleştirir.
       </p>
 
       <h4 className="text-xl font-bold mt-6 mb-3">4. Gree Airy Serisi</h4>

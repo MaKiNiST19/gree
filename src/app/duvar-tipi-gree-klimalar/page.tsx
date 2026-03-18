@@ -12,17 +12,11 @@ import {
 
 export const metadata = generateSEO({
     title: 'Gree Duvar Tipi Klima Serileri | İzmir Gree Yetkili Bayi',
-    description: 'Gree Aphro, Pular, Fairy ve Airy duvar tipi klima serilerini keşfedin. Enerji tasarruflu ve şık tasarımlı ev tipi klima çözümleri İzmir\'de.',
+    description: 'Gree Pular, Fairy ve Airy duvar tipi klima serilerini keşfedin. Enerji tasarruflu ve şık tasarımlı ev tipi klima çözümleri İzmir\'de.',
     pathname: '/duvar-tipi-gree-klimalar',
 });
 
 const seriesData = [
-    {
-        name: "Aphro Serisi",
-        desc: "Ekonomik ve dayanıklı Gree teknolojisinin giriş seviyesi çözümü.",
-        href: "/gree-aphro-serisi-klima",
-        banner: "/aphro.jpg"
-    },
     {
         name: "Pular Serisi",
         desc: "Kompakt tasarımı ve sessiz çalışma prensibiyle ev konforunun vazgeçilmezi.",
@@ -73,7 +67,7 @@ export default function DuvarTipiPage() {
             {/* Series Grid 2x2 with Stacked Border */}
             <section className="py-24 bg-white">
                 <div className="max-w-[1400px] mx-auto px-6">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-24">
                         {seriesData.map((series, idx) => (
                             <Link key={idx} href={series.href} className="group relative block">
                                 {/* 3rd background card */}
@@ -137,6 +131,15 @@ export default function DuvarTipiPage() {
 
             <section className="bg-white">
                 <div className="max-w-[1400px] mx-auto px-6 pb-24">
+                    <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-16">
+                        <h2 className="text-xl font-bold text-gray-900 mb-4">Gree Aphro Serisi Hakkında Bilgilendirme</h2>
+                        <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                            Değerli müşterilerimiz, Gree'nin ekonomik segmentteki efsaneleşmiş serisi olan <strong>Gree Aphro</strong> modelleri için İzmir satış desteğimiz sonlanmıştır. Aphro serisi arayan kullanıcılarımıza, giriş seviyesindeki bu boşluğu çok daha yeni bir teknoloji, Wi-Fi kontrolü ve daha yüksek enerji verimliliği (A++) ile dolduran <strong>Gree Pular</strong> serisini tavsiye ediyoruz.
+                        </p>
+                        <Link href="/gree-pular-serisi-klima" className="text-[#009be1] font-bold text-sm hover:underline flex items-center gap-2">
+                           Yeni Pular Serisini İnceleyin <ArrowRight className="w-4 h-4" />
+                        </Link>
+                    </div>
                     <DuvarTipiSeoArticle />
                 </div>
             </section>
