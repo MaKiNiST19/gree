@@ -11,6 +11,8 @@ import {
     ChevronLeft, ChevronRight, X
 } from 'lucide-react';
 
+import ProductSchema from '@/components/ProductSchema';
+
 interface Spec {
     label: string;
     value: string;
@@ -58,7 +60,7 @@ export default function SalonProductLayout({
     const [activeImageIndex, setActiveImageIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [lightboxImages, setLightboxImages] = useState<string[]>(galleryImages);
-import ProductSchema from '@/components/ProductSchema';
+
 
     return (
         <div className="bg-white">

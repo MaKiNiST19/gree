@@ -22,6 +22,8 @@ import {
     FileText
 } from 'lucide-react';
 
+import ProductSchema from '@/components/ProductSchema';
+
 interface Spec {
     label: string;
     value: string;
@@ -37,6 +39,7 @@ interface MultiProductLayoutProps {
     title: string;
     description: string;
     btu: string;
+    price: string;
     techSpecs: Spec[];
     seoContent: React.ReactNode;
     breadcrumb: any;
@@ -49,6 +52,7 @@ export default function MultiProductLayout({
     title,
     description,
     btu,
+    price,
     techSpecs,
     seoContent,
     breadcrumb,
@@ -63,7 +67,6 @@ export default function MultiProductLayout({
     const [activeImageIndex, setActiveImageIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [lightboxImages, setLightboxImages] = useState<string[]>(galleryImages);
-import ProductSchema from '@/components/ProductSchema';
 
     return (
         <div className="bg-white">

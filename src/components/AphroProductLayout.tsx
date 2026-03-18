@@ -29,6 +29,8 @@ import {
     FileText
 } from 'lucide-react';
 
+import ProductSchema from '@/components/ProductSchema';
+
 interface Spec {
     label: string;
     value: string;
@@ -49,6 +51,7 @@ interface AphroProductLayoutProps {
 
 export default function AphroProductLayout({
     title,
+    description,
     btu,
     price,
     installment,
@@ -62,7 +65,7 @@ export default function AphroProductLayout({
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [lightboxImages, setLightboxImages] = useState<string[]>(galleryImages);
     const [isRemoteModalOpen, setIsRemoteModalOpen] = useState(false);
-import ProductSchema from '@/components/ProductSchema';
+
 
     return (
         <div className="bg-white">
