@@ -44,8 +44,8 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/lomo/lomo-layout.png",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-duvar-tipi-lomo-ic-unite-18000-btu-h-0.png",
+    "/img/products/multi-sistem/multi-duvar-tipi-lomo-ic-unite-18000-btu-h-1.jpg"
 ];
 
 const promoImages = [

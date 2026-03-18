@@ -40,8 +40,7 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/ticari/kaset-tipi.png",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-kaset-tipi-ic-unite-24000-btu-h-0.png"
 ];
 
 const promoImages = [

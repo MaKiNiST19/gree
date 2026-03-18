@@ -20,8 +20,8 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/amber/amber-layout.webp",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-duvar-tipi-amber-ic-unite-24000-btu-h-1-0.jpg",
+    "/img/products/multi-sistem/multi-duvar-tipi-amber-ic-unite-24000-btu-h-1-1.jpg"
 ];
 
 const promoImages = [

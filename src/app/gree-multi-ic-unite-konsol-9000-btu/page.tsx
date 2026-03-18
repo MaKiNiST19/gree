@@ -40,8 +40,7 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/ticari/konsol-tipi.png",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-konsol-tipi-ic-unite-9000-btu-h-0.png"
 ];
 
 const promoImages = [

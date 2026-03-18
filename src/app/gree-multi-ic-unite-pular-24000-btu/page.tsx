@@ -21,8 +21,8 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/pular/mat-beyaz.png",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-duvar-tipi-pular-ic-unite-24000-btu-h-0.png",
+    "/img/products/multi-sistem/multi-duvar-tipi-pular-ic-unite-24000-btu-h-1.png"
 ];
 
 const promoImages = [

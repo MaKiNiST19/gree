@@ -21,8 +21,8 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/fairy/fairy-beyaz.png",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-duvar-tipi-fairy-ic-unite-9000-btu-h-0.png",
+    "/img/products/multi-sistem/multi-duvar-tipi-fairy-ic-unite-9000-btu-h-1.png"
 ];
 
 const promoImages = [

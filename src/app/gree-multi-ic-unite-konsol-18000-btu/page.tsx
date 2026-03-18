@@ -40,8 +40,7 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/ticari/konsol-tipi.png",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-konsol-tipi-ic-unite-18000-btu-h-kopya-0.png"
 ];
 
 const promoImages = [

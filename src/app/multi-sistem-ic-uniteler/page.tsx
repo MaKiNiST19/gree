@@ -11,48 +11,48 @@ export const metadata = generateSEO({
 
 const indoorProducts = [
     // Fairy Serisi
-    { name: "Multi Duvar Tipi Fairy İç Ünite – 12000 BTU/h", description: "Stok Kodu: GWH12ACC-K6DNA1I/I", image: "/fairy/fairy-beyaz.png", href: "/gree-multi-ic-unite-fairy-12000-btu" },
-    { name: "Multi Duvar Tipi Fairy İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24ACE-K6DNA1I/I", image: "/fairy/fairy-beyaz.png", href: "/gree-multi-ic-unite-fairy-24000-btu" },
-    { name: "Multi Duvar Tipi Fairy İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18ACD-K6DNA1I/I", image: "/fairy/fairy-beyaz.png", href: "/gree-multi-ic-unite-fairy-18000-btu" },
-    { name: "Multi Duvar Tipi Fairy İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09ACC-K6DNA1F/I", image: "/fairy/fairy-beyaz.png", href: "/gree-multi-ic-unite-fairy-9000-btu" },
+    { name: "Multi Duvar Tipi Fairy İç Ünite – 12000 BTU/h", description: "Stok Kodu: GWH12ACC-K6DNA1I/I", image: "/img/products/multi-sistem/multi-duvar-tipi-fairy-ic-unite-12000-btu-h-1-0.png", href: "/gree-multi-ic-unite-fairy-12000-btu" },
+    { name: "Multi Duvar Tipi Fairy İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24ACE-K6DNA1I/I", image: "/img/products/multi-sistem/multi-duvar-tipi-fairy-ic-unite-24000-btu-h-0.png", href: "/gree-multi-ic-unite-fairy-24000-btu" },
+    { name: "Multi Duvar Tipi Fairy İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18ACD-K6DNA1I/I", image: "/img/products/multi-sistem/multi-duvar-tipi-fairy-ic-unite-12000-btu-h-0.png", href: "/gree-multi-ic-unite-fairy-18000-btu" },
+    { name: "Multi Duvar Tipi Fairy İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09ACC-K6DNA1F/I", image: "/img/products/multi-sistem/multi-duvar-tipi-fairy-ic-unite-9000-btu-h-0.png", href: "/gree-multi-ic-unite-fairy-9000-btu" },
     
     // Pular Serisi
-    { name: "Multi Duvar Tipi Pular İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24AGD-K6DNA1C/I", image: "/pular/pular-layout.png", href: "/gree-multi-ic-unite-pular-24000-btu" },
-    { name: "Multi Duvar Tipi Pular İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18AGD-K6DNA1D/I", image: "/pular/pular-layout.png", href: "/gree-multi-ic-unite-pular-18000-btu" },
-    { name: "Multi Duvar Tipi Pular İç Ünite – 12000 BTU/h", description: "Stok Kodu: GWH12AGBXA-K6DNA1B/I", image: "/pular/pular-layout.png", href: "/gree-multi-ic-unite-pular-12000-btu" },
-    { name: "Multi Duvar Tipi Pular İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09AGAXB-K6DNA1B/I", image: "/pular/pular-layout.png", href: "/gree-multi-ic-unite-pular-9000-btu" },
-    { name: "Multi Duvar Tipi Pular İç Ünite – 7000 BTU/h", description: "Stok Kodu: GWH07AGA-K6DNA1A/I", image: "/pular/pular-layout.png", href: "/gree-multi-ic-unite-pular-7000-btu" },
+    { name: "Multi Duvar Tipi Pular İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24AGD-K6DNA1C/I", image: "/img/products/multi-sistem/multi-duvar-tipi-pular-ic-unite-24000-btu-h-0.png", href: "/gree-multi-ic-unite-pular-24000-btu" },
+    { name: "Multi Duvar Tipi Pular İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18AGD-K6DNA1D/I", image: "/img/products/multi-sistem/multi-duvar-tipi-pular-ic-unite-18000-btu-h-0.png", href: "/gree-multi-ic-unite-pular-18000-btu" },
+    { name: "Multi Duvar Tipi Pular İç Ünite – 12000 BTU/h", description: "Stok Kodu: GWH12AGBXA-K6DNA1B/I", image: "/img/products/multi-sistem/multi-duvar-tipi-pular-ic-unite-12000-btu-h-0.png", href: "/gree-multi-ic-unite-pular-12000-btu" },
+    { name: "Multi Duvar Tipi Pular İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09AGAXB-K6DNA1B/I", image: "/img/products/multi-sistem/multi-duvar-tipi-pular-ic-unite-9000-btu-h-0.png", href: "/gree-multi-ic-unite-pular-9000-btu" },
+    { name: "Multi Duvar Tipi Pular İç Ünite – 7000 BTU/h", description: "Stok Kodu: GWH07AGA-K6DNA1A/I", image: "/img/products/multi-sistem/multi-duvar-tipi-pular-ic-unite-7000-btu-h-0.png", href: "/gree-multi-ic-unite-pular-7000-btu" },
 
     // Amber Serisi
-    { name: "Multi Duvar Tipi Amber İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24YE-K6DNA2A/I", image: "/amber/amber-layout.webp", href: "/gree-multi-ic-unite-amber-24000-btu" },
-    { name: "Multi Duvar Tipi Amber İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18YD-K6DNA2A/I", image: "/amber/amber-layout.webp", href: "/gree-multi-ic-unite-amber-18000-btu" },
-    { name: "Multi Duvar Tipi Amber İç Ünite – 12000 BTU/h", description: "Stok Kodu: GWH12YC-K6DNA2A/I", image: "/amber/amber-layout.webp", href: "/gree-multi-ic-unite-amber-12000-btu" },
-    { name: "Multi Duvar Tipi Amber İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09YC-K6DNA2A/I", image: "/amber/amber-layout.webp", href: "/gree-multi-ic-unite-amber-9000-btu" },
+    { name: "Multi Duvar Tipi Amber İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24YE-K6DNA2A/I", image: "/img/products/multi-sistem/multi-duvar-tipi-amber-ic-unite-24000-btu-h-1-0.jpg", href: "/gree-multi-ic-unite-amber-24000-btu" },
+    { name: "Multi Duvar Tipi Amber İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18YD-K6DNA2A/I", image: "/img/products/multi-sistem/multi-duvar-tipi-amber-ic-unite-18000-btu-h-0.jpg", href: "/gree-multi-ic-unite-amber-18000-btu" },
+    { name: "Multi Duvar Tipi Amber İç Ünite – 12000 BTU/h", description: "Stok Kodu: GWH12YC-K6DNA2A/I", image: "/img/products/multi-sistem/multi-duvar-tipi-amber-ic-unite-12000-btu-h-0.jpg", href: "/gree-multi-ic-unite-amber-12000-btu" },
+    { name: "Multi Duvar Tipi Amber İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09YC-K6DNA2A/I", image: "/img/products/multi-sistem/multi-duvar-tipi-amber-ic-unite-24000-btu-h-0.jpg", href: "/gree-multi-ic-unite-amber-9000-btu" },
 
     // Lomo Serisi
-    { name: "Multi Duvar Tipi Lomo İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24QE-K6DNE8E/I", image: "/lomo/lomo-layout.png", href: "/gree-multi-ic-unite-lomo-24000-btu" },
-    { name: "Multi Duvar Tipi Lomo İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18QD-K6DNE8D/I", image: "/lomo/lomo-layout.png", href: "/gree-multi-ic-unite-lomo-18000-btu" },
-    { name: "Multi Duvar Tipi Lomo İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09QB-K6DNB8E/I", image: "/lomo/lomo-layout.png", href: "/gree-multi-ic-unite-lomo-9000-btu" },
+    { name: "Multi Duvar Tipi Lomo İç Ünite – 24000 BTU/h", description: "Stok Kodu: GWH24QE-K6DNE8E/I", image: "/img/products/multi-sistem/multi-duvar-tipi-lomo-ic-unite-24000-btu-h-0.png", href: "/gree-multi-ic-unite-lomo-24000-btu" },
+    { name: "Multi Duvar Tipi Lomo İç Ünite – 18000 BTU/h", description: "Stok Kodu: GWH18QD-K6DNE8D/I", image: "/img/products/multi-sistem/multi-duvar-tipi-lomo-ic-unite-18000-btu-h-0.png", href: "/gree-multi-ic-unite-lomo-18000-btu" },
+    { name: "Multi Duvar Tipi Lomo İç Ünite – 9000 BTU/h", description: "Stok Kodu: GWH09QB-K6DNB8E/I", image: "/img/products/multi-sistem/multi-duvar-tipi-lomo-ic-unite-9000-btu-h-0.png", href: "/gree-multi-ic-unite-lomo-9000-btu" },
 
     // Kaset Tipi
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 20000 BTU/h", description: "Stok Kodu: GKH24DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-20000-btu" },
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-18000-btu" },
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-12000-btu" },
-    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 9000 BTU/h", description: "Stok Kodu: GKH9DA-K6DNA1A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-tek-yon-9000-btu" },
-    { name: "Multi Kaset Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GKH24BC-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-24000-btu" },
-    { name: "Multi Kaset Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18BB-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-18000-btu" },
-    { name: "Multi Kaset Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12BB-K6DNA3A/I", image: "/ticari/kaset-tipi.png", href: "/gree-multi-ic-unite-kaset-12000-btu" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 20000 BTU/h", description: "Stok Kodu: GKH24DA-K6DNA1A/I", image: "/img/products/multi-sistem/multi-kaset-tipi-tek-yon-ic-unite-24000-btu-h-0.jpg", href: "/gree-multi-ic-unite-kaset-tek-yon-20000-btu" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18DA-K6DNA1A/I", image: "/img/products/multi-sistem/multi-kaset-tipi-tek-yon-ic-unite-18000-btu-h-0.jpg", href: "/gree-multi-ic-unite-kaset-tek-yon-18000-btu" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12DA-K6DNA1A/I", image: "/img/products/multi-sistem/multi-kaset-tipi-tek-yon-ic-unite-12000-btu-h-0.jpg", href: "/gree-multi-ic-unite-kaset-tek-yon-12000-btu" },
+    { name: "Multi Kaset Tipi Tek Yön İç Ünite – 9000 BTU/h", description: "Stok Kodu: GKH9DA-K6DNA1A/I", image: "/img/products/multi-sistem/multi-kaset-tipi-tek-yon-ic-unite-9000-btu-h-0.jpg", href: "/gree-multi-ic-unite-kaset-tek-yon-9000-btu" },
+    { name: "Multi Kaset Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GKH24BC-K6DNA3A/I", image: "/img/products/multi-sistem/multi-kaset-tipi-ic-unite-24000-btu-h-0.png", href: "/gree-multi-ic-unite-kaset-24000-btu" },
+    { name: "Multi Kaset Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GKH18BB-K6DNA3A/I", image: "/img/products/multi-sistem/multi-kaset-tipi-ic-unite-18000-btu-h-0.png", href: "/gree-multi-ic-unite-kaset-18000-btu" },
+    { name: "Multi Kaset Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GKH12BB-K6DNA3A/I", image: "/img/products/multi-sistem/multi-kaset-tipi-ic-unite-12000-btu-h-0.png", href: "/gree-multi-ic-unite-kaset-12000-btu" },
 
     // Kanal Tipi
-    { name: "Multi Kanal Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GFH24CC-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-24000-btu" },
-    { name: "Multi Kanal Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GFH18CB-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-18000-btu" },
-    { name: "Multi Kanal Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GFH12CA-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-12000-btu" },
-    { name: "Multi Kanal Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GFH09CA-K6DNA1C/I", image: "/ticari/kanalli-tip.png", href: "/gree-multi-ic-unite-kanal-9000-btu" },
+    { name: "Multi Kanal Tipi İç Ünite – 24000 BTU/h", description: "Stok Kodu: GFH24CC-K6DNA1C/I", image: "/img/products/multi-sistem/multi-kanalli-tip-ic-unite-24000-btu-h-0.png", href: "/gree-multi-ic-unite-kanal-24000-btu" },
+    { name: "Multi Kanal Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GFH18CB-K6DNA1C/I", image: "/img/products/multi-sistem/multi-kanalli-tip-ic-unite-18000-btu-h-0.png", href: "/gree-multi-ic-unite-kanal-18000-btu" },
+    { name: "Multi Kanal Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GFH12CA-K6DNA1C/I", image: "/img/products/multi-sistem/multi-kanalli-tip-ic-unite-12000-btu-h-0.png", href: "/gree-multi-ic-unite-kanal-12000-btu" },
+    { name: "Multi Kanal Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GFH09CA-K6DNA1C/I", image: "/img/products/multi-sistem/multi-kanalli-tip-ic-unite-9000-btu-h-0.png", href: "/gree-multi-ic-unite-kanal-9000-btu" },
 
     // Konsol Tipi
-    { name: "Multi Konsol Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GEH18AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "/gree-multi-ic-unite-konsol-18000-btu" },
-    { name: "Multi Konsol Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GEH12AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "/gree-multi-ic-unite-konsol-12000-btu" },
-    { name: "Multi Konsol Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GEH09AA-K6DNA1E/I", image: "/ticari/konsol-tipi.png", href: "/gree-multi-ic-unite-konsol-9000-btu" }
+    { name: "Multi Konsol Tipi İç Ünite – 18000 BTU/h", description: "Stok Kodu: GEH18AA-K6DNA1E/I", image: "/img/products/multi-sistem/multi-konsol-tipi-ic-unite-18000-btu-h-kopya-0.png", href: "/gree-multi-ic-unite-konsol-18000-btu" },
+    { name: "Multi Konsol Tipi İç Ünite – 12000 BTU/h", description: "Stok Kodu: GEH12AA-K6DNA1E/I", image: "/img/products/multi-sistem/multi-konsol-tipi-ic-unite-12000-btu-h-0.png", href: "/gree-multi-ic-unite-konsol-12000-btu" },
+    { name: "Multi Konsol Tipi İç Ünite – 9000 BTU/h", description: "Stok Kodu: GEH09AA-K6DNA1E/I", image: "/img/products/multi-sistem/multi-konsol-tipi-ic-unite-9000-btu-h-0.png", href: "/gree-multi-ic-unite-konsol-9000-btu" }
 ];
 
 

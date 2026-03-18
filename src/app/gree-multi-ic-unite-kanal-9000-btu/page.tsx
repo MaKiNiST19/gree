@@ -40,8 +40,7 @@ const techSpecs = [
 ];
 
 const galleryImages = [
-    "/ticari/kanalli-tip.png",
-    "/multi/galeri/ic-unite.png"
+    "/img/products/multi-sistem/multi-kanalli-tip-ic-unite-9000-btu-h-0.png"
 ];
 
 const promoImages = [
