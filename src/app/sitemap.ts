@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.greeklimaizmir.com';
 
     const staticRoutes = [
-        '',
+        '/',
         '/gree-klima-modelleri',
         '/duvar-tipi-gree-klimalar',
         '/salon-tipi-gree-klimalar',

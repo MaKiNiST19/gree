@@ -9,7 +9,7 @@ interface SEOProps {
 
 export function generateSEO({ title, description, pathname, keywords = [] }: SEOProps): Metadata {
   const baseUrl = 'https://www.greeklimaizmir.com';
-  const url = `${baseUrl}${pathname === '/' ? '' : pathname}`;
+  const url = `${baseUrl}${pathname}`;
   const defaultKeywords = ['Gree Klima İzmir', 'İzmir Gree Yetkili Bayi', 'Klima Montaj İzmir', 'Klima Bakım İzmir', 'Gree Klima Fiyatları'];
   
   return {
@@ -43,7 +43,7 @@ export function generateBreadcrumbSchema(items: { name: string; url: string }[])
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://www.greeklimaizmir.com${item.url === '/' ? '' : item.url}`,
+      item: `https://www.greeklimaizmir.com${item.url}`,
     })),
   };
 }
