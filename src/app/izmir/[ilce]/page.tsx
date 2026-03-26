@@ -9,7 +9,7 @@ type Props = {
     params: { ilce: string };
 };
 
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 const dists = [
     { slug: 'karabaglar', name: 'Karabağlar' },

@@ -24,9 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/izmir-inverter-klima',
         '/izmir-klima-ariza-kodlari',
         '/gree-ariza-kodlari',
-        '/gree-f0-hata-kodu',
-        '/gree-e1-hata-kodu',
-        '/gree-e5-hata-kodu',
         '/btu-hesaplama',
         '/btu-hesaplama-izmir',
         '/gree-vs-mitsubishi',
@@ -46,7 +43,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/klima-surekli-calismali-mi',
         '/klima-kac-derecede-yakmali',
         '/ev-klimasi-izmir',
-
         '/gree-f0-hata-kodu', '/gree-e1-hata-kodu', '/gree-e2-hata-kodu', '/gree-e5-hata-kodu', '/gree-h6-hata-kodu', '/gree-l3-hata-kodu', '/gree-u8-hata-kodu', '/gree-p0-hata-kodu', '/gree-p6-hata-kodu', '/gree-f3-hata-kodu',
         '/15-m2-klima', '/20-m2-klima', '/25-m2-klima', '/30-m2-klima', '/35-m2-klima', '/40-m2-klima', '/45-m2-klima', '/50-m2-klima', '/60-m2-klima', '/70-m2-klima',
         '/1-arti-1-ev-klimasi', '/2-arti-1-ev-klimasi', '/3-arti-1-ev-klimasi', '/yuksek-tavanli-ev-klimasi', '/gunes-goren-ev-klimasi', '/cati-kati-klima-cozumu', '/dubleks-ev-klimasi', '/kucuk-ev-icin-klima', '/rezidans-klima-cozumu', '/mustakil-ev-klimasi',
@@ -72,8 +68,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
         return {
             url: `${baseUrl}${route}`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly' as any,
+            lastModified: new Date('2025-06-01'),
+            changeFrequency: 'weekly' as const,
             priority: currentPriority,
         };
     });
@@ -81,14 +77,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const sitemapDynamic = districts.flatMap((ilce) => {
         const base = {
             url: `${baseUrl}/izmir/${ilce.slug}`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly' as any,
+            lastModified: new Date('2025-06-01'),
+            changeFrequency: 'weekly' as const,
             priority: 0.9,
         };
         const subRoutes = ['klima-montaj', 'klima-bakim', 'gree-klima-satis'].map(sub => ({
             url: `${baseUrl}/izmir/${ilce.slug}/${sub}`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly' as any,
+            lastModified: new Date('2025-06-01'),
+            changeFrequency: 'weekly' as const,
             priority: 0.8,
         }));
         return [base, ...subRoutes];

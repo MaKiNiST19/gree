@@ -9,7 +9,7 @@ type Props = {
     params: { ilce: string };
 };
 
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
     return districts.map((d) => ({
