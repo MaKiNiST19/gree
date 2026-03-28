@@ -26,7 +26,7 @@ export default function IletisimPage() {
         {
             title: "E-Posta Adresimiz",
             icon: <Mail className="w-8 h-8 text-[#009be1]" />,
-            details: ["info@deytesiklimlendirme.com", "destek@deytes.com.tr"],
+            details: ["info@deytesiklimlendirme.com"],
             link: "mailto:info@deytesiklimlendirme.com",
             buttonText: "E-Posta Gönder"
         },
@@ -141,9 +141,9 @@ export default function IletisimPage() {
                     <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
                         <div className="bg-[#009be1] rounded-[40px] p-8 md:p-16 flex flex-col md:flex-row items-center justify-between gap-12 text-white">
                             <div className="flex-1">
-                                <h3 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">Teknik Destek Mi <br /> Gerekiyor?</h3>
+                                <h3 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">Mekanınıza Uygun <br /> Klima Mı Arıyorsunuz?</h3>
                                 <p className="text-white/80 text-lg max-w-xl">
-                                    Garanti kapsamındaki cihazlarınız için yetkili servis formumuzu doldurabilir veya acil destek hattımızdan bize ulaşabilirsiniz.
+                                    İhtiyacınıza en uygun modeli belirlemek ve ücretsiz keşif avantajından yararlanmak için hemen satış uzmanlarımızla iletişime geçin.
                                 </p>
                             </div>
                             <div className="flex-shrink-0">

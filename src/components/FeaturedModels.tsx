@@ -10,12 +10,6 @@ const products = [
     href: "/gree-klima-modelleri"
   },
   {
-    name: "Gree Aphro 24000 BTU/h",
-    description: "Enerji tasarrufu ve güçlü soğutma performansı sunan modern inverter klima çözümü.",
-    image: "/gree-klima-aphro-24000-btu-h.jpg",
-    href: "/gree-klima-modelleri"
-  },
-  {
     name: "Gree Pular 24000 BTU/h",
     description: "Geniş alanlar için yüksek performanslı inverter klima modeli.",
     image: "/gree-klima-pular-24000-btu-h.jpg",

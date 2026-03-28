@@ -69,7 +69,7 @@ export default function MultiIndoorPage() {
 
             {/* Banner Section */}
             <section className="relative -mt-[84px] md:-mt-[92px] w-full h-[300px] md:h-[400px] overflow-hidden">
-                <img src="/multi/tanitim/02.png" alt="Gree Multi İç Üniteler" className="w-full h-full object-cover" />
+                <img src="/gree-klima-multi-ic-unite.jpg" alt="Gree Multi İç Üniteler" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-black/50 flex items-center">
                     <div className="max-w-[1400px] mx-auto px-6 w-full text-center md:text-left">
                         <h1 className="text-3xl md:text-6xl font-black text-white uppercase tracking-tighter">

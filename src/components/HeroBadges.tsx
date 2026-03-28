@@ -122,7 +122,7 @@ interface RatingBadgeProps extends HTMLAttributes<HTMLDivElement> {
 
 export const RatingBadge = ({ title, subtitle, className = '', ...props }: RatingBadgeProps) => {
     return (
-        <div {...props} className={`flex items-center space-x-1 ${className}`}>
+        <div {...props} className={`flex items-center justify-center space-x-1 ${className}`}>
             <Wreath className="shrink-0 w-8 md:w-10 opacity-70" />
 
             <div className="flex flex-col items-center justify-center min-w-[150px]">

@@ -76,7 +76,7 @@ export default function Home() {
               { title: "Multi Sistem Klimalar", url: "/multi-sistem-gree-klimalar", image: "/gree-klima-multi-sistem.jpg" },
               { title: "Isı Pompası", url: "/gree-isi-pompasi-izmir", image: "/gree-klima-isi-pompasi.jpg" },
               { title: "Ticari Klimalar", url: "/ticari-gree-klimalar", image: "/gree-klima-ticari-kanal-tipi.jpg" },
-              { title: "VRF Kima Sistemleri", url: "/", image: "/gree-klima-vrf.jpg" }
+              { title: "VRF Kima Sistemleri", url: "/vrf-klima-sistemleri", image: "/gree-klima-vrf.jpg" }
             ].map((category) => (
               <div key={category.title} className="relative group h-[450px] sm:h-[420px] md:h-[480px] w-full">
                 {/* 3rd background card */}

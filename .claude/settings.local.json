@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /e/greeklima/greeklimaizmir/src -name middleware.* -o -name *.config.*)",
+      "Bash(xargs grep:*)",
+      "Bash(wc -l /e/greeklima/greeklimaizmir/src/app/page.tsx /e/greeklima/greeklimaizmir/src/app/blog/[slug]/page.tsx /e/greeklima/greeklimaizmir/src/app/izmir/[ilce]/page.tsx)",
+      "Bash(xargs head:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
