@@ -57,7 +57,7 @@ export default function MultiProductLayout({
     seoContent,
     breadcrumb,
     galleryImages,
-    promoImages = ["/multi/tanitim/01.png", "/multi/tanitim/02.png"],
+    promoImages,
     documents = [
         { label: "Multi Katalog", icon: "/aphro/pdf-icon.webp", link: "/multi/Gree-Multi-Sistem-Klima-Katalogu.pdf" },
         { label: "Kullanım Kılavuzu", icon: "/aphro/kilavuz-icon.png", link: "/multi/Gree-Multi-Sistem-Kullanim-Kilavuzu.pdf" },
@@ -67,6 +67,17 @@ export default function MultiProductLayout({
     const [activeImageIndex, setActiveImageIndex] = useState(0);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [lightboxImages, setLightboxImages] = useState<string[]>(galleryImages);
+
+    const isHeatPump = btu.toLowerCase().includes('kw') || title.toLowerCase().includes('pompa');
+    
+    const finalPromoImages = promoImages || (isHeatPump 
+        ? [
+            "/isi-pompasi/HAVUZ-ISI-POMPASI-FAYDA_01.jpg",
+            "/isi-pompasi/ISI-POMPASI-FAYDA_01.jpg",
+            "/isi-pompasi/ISI-POMPASI-FAYDA_02.jpg",
+            "/isi-pompasi/ISI-POMPASI-FAYDA_04.jpg"
+          ] 
+        : ["/multi/tanitim/01.png", "/multi/tanitim/02.png"]);
 
     return (
         <div className="bg-white">
@@ -249,11 +260,11 @@ export default function MultiProductLayout({
                         <Wind className="text-blue-500 w-8 h-8" /> Ürün Tanıtımı
                     </h2>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8 justify-items-center">
-                         {promoImages.map((img, idx) => (
+                         {finalPromoImages.map((img, idx) => (
                              <div 
                                 key={idx} 
                                 onClick={() => {
-                                    setLightboxImages(promoImages);
+                                    setLightboxImages(finalPromoImages);
                                     setActiveImageIndex(idx);
                                     setIsLightboxOpen(true);
                                 }}

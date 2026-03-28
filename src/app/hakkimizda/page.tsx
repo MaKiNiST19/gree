@@ -77,10 +77,10 @@ export default function HakkimizdaPage() {
                         </Link>
                     </div>
 
-                    <div className="flex flex-wrap justify-center gap-6 md:gap-12 pt-10 border-t border-white/10">
+                        <div className="flex flex-wrap justify-center gap-6 md:gap-12 pt-10 border-t border-white/10">
                         {[
                             { icon: <Zap className="w-5 h-5" />, text: "Gree Uzmanlığı" },
-                            { icon: <CheckCircle className="w-5 h-5" />, text: "İzmir Teknik Ekip" },
+                            { icon: <CheckCircle className="w-5 h-5" />, text: "İzmir Uzman Kadro" },
                             { icon: <Wind className="w-5 h-5" />, text: "Kusursuz Montaj" }
                         ].map((badge, i) => (
                             <div key={i} className="flex items-center gap-2.5 text-white/70 font-bold text-sm">
@@ -103,21 +103,21 @@ export default function HakkimizdaPage() {
                         </h2>
                         <div className="space-y-6 text-gray-600 font-medium leading-relaxed">
                             <p>
-                                <strong>Deytes İklimlendirme</strong>, temelleri 22 yılı aşan mekanik tesisat ve mühendislik tecrübesine dayanan, İzmir merkezli profesyonel bir iklimlendirme firmasıdır. Vizyonumuz, sadece klima satışı değil, her bir yaşam alanına özel "İklim Konforu" tasarlamaktır.
+                                <strong>Deytes İklimlendirme</strong>, temelleri 22 yılı aşan mekanik tesisat ve mühendislik tecrübesine dayanan, İzmir merkezli, çözüm odaklı bir iklimlendirme şirketidir. Temel vizyonumuz, her bir yaşam alanının dinamiğine uygun, sürdürülebilir ve yüksek verimli "İklimlendirme Projeleri" hayata geçirmektir.
                             </p>
                             <p>
-                                İzmir'in her ilçesinde; Karşıyaka'dan Çeşme'ye, Bornova'dan Güzelbahçe'ye kadar geniş bir hizmet ağında profesyonel <strong>Gree yetkili bayi</strong> uzmanlığıyla satış, montaj ve teknik servis hizmeti sağlıyoruz.
+                                Ege Bölgesi'nin tamamında; kurumsal ve bireysel ölçekli projelerden, butik konut uygulamalarına kadar geniş bir yelpazede hizmet sunmaktayız. Profesyonel <strong>Gree yetkili bayi</strong> kimliğimizle, satıştan kurulum yönetimine kadar tüm süreçleri uluslararası standartlarda yönetiyoruz.
                             </p>
                             <p>
-                                Sadece bir cihazın duvara monte edilmesi değil, bir mekanın nefes almasını, ısınmasını ve soğumasını bilimsel yöntemlerle yönetme sanatını icra ediyoruz. Mühendislik vizyonumuzla her projede sürdürülebilir konforu garanti ediyoruz.
+                                Bizim için iklimlendirme, sadece bir cihaz yerleşimi değil; hava kalitesini, enerji yönetimini ve estetik uyumu birleştiren kapsamlı bir mühendislik disiplinidir. Modern teknoloji ve uzman kadromuzla, geleceğin konfor standartlarını bugünden tasarlıyoruz.
                             </p>
                         </div>
                         
                         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <BaselineFeature id="f1" text="Profesyonel Satış" text2="Hızlı Teslimat" text3="Gree Güvencesi" />
                             <BaselineFeature id="f2" text="Mühendislik Montaj" text2="Vakumlu Kurulum" text3="Kusursuz İşçilik" />
-                            <BaselineFeature id="f3" text="Periyodik Bakım" text2="%30 Enerji Tasarrufu" text3="Hijyenik Hava" />
-                            <BaselineFeature id="f4" text="Garantili Servis" text2="7/24 Destek" text3="Orijinal Parça" />
+                            <BaselineFeature id="f3" text="Periyodik Kontrol" text2="%30 Enerji Tasarrufu" text3="Maksimum Verim" />
+                            <BaselineFeature id="f4" text="Kurumsal Güvence" text2="Proje Desteği" text3="Gree İş Ortaklığı" />
                             <BaselineFeature id="f5" text="Doğru BTU Analizi" text2="Ücretsiz Ölçüm" text3="Maksimum Verim" />
                             <BaselineFeature id="f6" text="Ücretsiz Keşif" text2="Uzman Danışmanlık" text3="Bugün Randevu" />
                         </div>
@@ -219,7 +219,7 @@ export default function HakkimizdaPage() {
                             { title: "Gree Model Uzmanlığı", desc: "Dünyanın en büyük klima üreticisinin teknolojisine tam sertifikalı hakimiyet." },
                             { title: "Bilimsel Ücretsiz Keşif", desc: "Sürpriz maliyetleri engelleyen, odanıza özel profesyonel BTU yük analizi." },
                             { title: "Vakumlu Temiz Montaj", desc: "Klimanızın fabrika verilerinde çalışması için vakumlama disiplinli kurulum." },
-                            { title: "Satış Sonrası Destek", desc: "Cihazın çalışmaya başladığı andan itibaren kesintisiz 7/24 teknik garanti." },
+                            { title: "Satış Sonrası Destek", desc: "Sistem devreye alındığı andan itibaren kesintisiz kurumsal destek ve güvence." },
                             { title: "Müşteri Odaklılık", desc: "Maksimum konfor ve minimum fatura odaklı mühendislik danışmanlığı." }
                         ].map((card, i) => (
                             <div key={i} className="relative group">
