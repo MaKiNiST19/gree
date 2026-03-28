@@ -98,11 +98,11 @@ export default function Footer() {
                         <div className="space-y-4">
                             <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Yasal</h4>
                             <ul className="space-y-3">
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Kullanım Koşulları</Link></li>
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gizlilik Politikası</Link></li>
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Çerez Politikası</Link></li>
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium text-nowrap">KVKK Aydınlatma</Link></li>
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Garanti Şartları</Link></li>
+                                <li><Link href="/kullanim-kosullari" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Kullanım Koşulları</Link></li>
+                                <li><Link href="/gizlilik-politikasi" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gizlilik Politikası</Link></li>
+                                <li><Link href="/gizlilik-politikasi#cerezler" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Çerez Politikası</Link></li>
+                                <li><Link href="/kvkk-aydinlatma-metni" className="text-[14px] hover:text-[#009be1] transition-colors font-medium text-nowrap">KVKK Aydınlatma</Link></li>
+                                <li><Link href="/hakkimizda" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Garanti Şartları</Link></li>
                             </ul>
                         </div>
                     </div>
