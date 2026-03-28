@@ -114,7 +114,7 @@ export default function ModellerPage() {
                         </div>
                         <div className="flex flex-col items-center text-center p-8 bg-white rounded-3xl shadow-sm border border-gray-100">
                             <UserCheck className="w-12 h-12 text-[#009be1] mb-4" />
-                            <h4 className="text-xl font-bold text-gray-900 mb-2">Yetkili Satış & Servis</h4>
+                            <h4 className="text-xl font-bold text-gray-900 mb-2">Yetkili Satış & İklimlendirme</h4>
                             <p className="text-gray-500">İzmir genelinde Deytes İklimlendirme güvencesiyle uzman kadro desteği.</p>
                         </div>
                         <div className="flex flex-col items-center text-center p-8 bg-white rounded-3xl shadow-sm border border-gray-100">
@@ -148,7 +148,7 @@ export default function ModellerPage() {
                                     İzmir gibi mevsim geçişlerinin keskin olduğu ve yaz aylarında nemin konforu ciddi şekilde etkilediği bir bölgede, doğru klima seçimi sadece bir satın alma işlemi değil; uzun vadeli bir yatırım kararıdır. <strong className="text-gray-900">Deytes İklimlendirme</strong> olarak, Gree'nin inovasyon odaklı yaklaşımını İzmirli kullanıcılarla buluştururken, her ihtiyaca uygun teknik çözümleri sunmayı hedefliyoruz. Bu kapsamlı rehberde, Gree klima serilerinin teknik detaylarından, enerji tasarrufu avantajlarına; modeller arasındaki farklardan, uzun ömürlü kullanım için dikkat edilmesi gerekenlere kadar her detayı bulacaksınız.
                                 </p>
                                 <p>
-                                    Gree, dünya genelinde üretilen her üç klimadan birinin üreticisi konumundadır. Bu muazzam üretim gücü, beraberinde devasa bir AR-GE birikimini de getirmektedir. Markanın "Mastering Core Technologies" (Çekirdek Teknolojilere Hakimiyet) vizyonu, kompresör üretiminden kart tasarımına kadar tüm süreçlerin kontrol altında tutulmasını sağlar. Bu durum, son kullanıcıya "sorunsuzluk" olarak geri döner. Bir Gree klima satın aldığınızda, sadece bir cihaz değil, milyonlarca testten geçmiş, zorlu hava koşullarına (İzmir'in 45 dereceyi bulan yaz sıcakları gibi) dayanıklılığı kanıtlanmış bir sistem satın almış olursunuz.
+                                    Gree, dünya genelinde üretilen her üç klimadan birinin üreticisi konumundadır. Bu muazzam üretim gücü, beraberinde devasa bir AR-GE birikimini de getirmektedir. Markanın \"Mastering Core Technologies\" (Çekirdek Teknolojilere Hakimiyet) vizyonu, kompresör üretiminden kart tasarımına kadar tüm süreçlerin kontrol altında tutulmasını sağlar. Bu durum, son kullanıcıya \"sorunsuzluk\" olarak geri döner. Bir Gree klima satın aldığınızda, sadece bir cihaz değil, milyonlarca testten geçmiş, zorlu hava koşullarına (İzmir'in 45 dereceyi bulan yaz sıcakları gibi) dayanıklılığı kanıtlanmış bir sistem satın almış olursunuz.
                                 </p>
                             </div>
 
@@ -217,10 +217,10 @@ export default function ModellerPage() {
                                     I-Feel Teknolojisi ve Akıllı Konforun Geleceği
                                 </h3>
                                 <p>
-                                    Gree modellerinin çoğunda standart olarak sunulan <strong className="text-gray-900">I-Feel özelliği</strong>, klimanın üzerindeki sensör yerine uzaktan kumandanın bulunduğu noktadaki sıcaklığı baz almasını sağlar. Normalde klimalar, iç ünitenin (genellikle tavana yakın) bulunduğu yerin sıcaklığını ölçer. Ancak sıcaklık tavanda ve sizin oturduğunuz koltukta farklıdır. Gree kumandasındaki sensör sayesinde cihaz, "kumanda nerede, konfor orada" prensibiyle çalışır. Bu sayede, siz klimadan uzak bir koltukta otururken bile kumanda yanınızdaysa, cihaz tam da bulunduğunuz yerin sıcaklığını istediğiniz seviyeye getirir.
+                                    Gree modellerinin çoğunda standart olarak sunulan <strong className="text-gray-900">I-Feel özelliği</strong>, klimanın üzerindeki sensör yerine uzaktan kumandanın bulunduğu noktadaki sıcaklığı baz almasını sağlar. Normalde klimalar, iç ünitenin (genellikle tavana yakın) bulunduğu yerin sıcaklığını ölçer. Ancak sıcaklık tavanda ve sizin oturduğunuz koltukta farklıdır. Gree kumandasındaki sensör sayesinde cihaz, \"kumanda nerede, konfor orada\" prensibiyle çalışır. Bu sayede, siz klimadan uzak bir koltukta otururken bile kumanda yanınızdaysa, cihaz tam da bulunduğunuz yerin sıcaklığını istediğiniz seviyeye getirir.
                                 </p>
                                 <p>
-                                    Akıllı kontrol sistemleri sadece kumanda ile sınırlı değildir. <strong className="text-gray-900">Gree+ Uygulaması</strong> sayesinde akıllı telefonunuz üzerinden klimanızı yönetebilirsiniz. İşten eve dönerken klimanızı açabilir, haftalık çalışma programları oluşturabilir veya enerji tüketim verilerinizi anlık olarak takip edebilirsiniz. Bu teknolojik altyapı, enerji harcamalarınızı %20'ye kadar daha iyi kontrol etmenize olanak tanır. Ayrıca Google Home ve Amazon Alexa gibi sesli asistan entegrasyonları ile "Hey Google, klimayı 24 dereceye ayarla" demeniz yeterli olacaktır.
+                                    Akıllı kontrol sistemleri sadece kumanda ile sınırlı değildir. <strong className="text-gray-900">Gree+ Uygulaması</strong> sayesinde akıllı telefonunuz üzerinden klimanızı yönetebilirsiniz. İşten eve dönerken klimanızı açabilir, haftalık çalışma programları oluşturabilir veya enerji tüketim verilerinizi anlık olarak takip edebilirsiniz. Bu teknolojik altyapı, enerji harcamalarınızı %20'ye kadar daha iyi kontrol etmenize olanak tanır. Ayrıca Google Home ve Amazon Alexa gibi sesli asistan entegrasyonları ile \"Hey Google, klimayı 24 dereceye ayarla\" demeniz yeterli olacaktır.
                                 </p>
                                 <p>
                                     Gree'nin bir diğer önemli özelliği ise <strong className="text-gray-900">Otomatik Gerilim Adaptasyonu</strong>dur. İzmir gibi bazı bölgelerde elektrik voltaj dalgalanmaları yaşanabilmektedir. Gree'nin özel kart tasarımı, 170V ile 265V arasındaki geniş bir voltaj aralığında güvenle çalışarak kart yanmalarını ve arızaları büyük oranda önler. Bu, özellikle sanayi bölgelerine yakın konutlarda yaşayanlar için çok değerli bir güvenlik özelliğidir.
@@ -255,10 +255,10 @@ export default function ModellerPage() {
                             <div className="pt-12 space-y-4">
                                 <h4 className="text-2xl font-bold text-gray-900 mb-4">Gree Klima ile Isınma Performansı: İzmir Kışları İçin Doğru mu?</h4>
                                 <p>
-                                    Birçok kullanıcı klimanın sadece "soğutucu" olduğunu düşünür. Ancak Gree klimaların asıl gücü kış performansında yatmaktadır. <strong className="text-gray-900">Akıllı Defrost</strong> özelliği sayesinde cihaz, dış ünite buzlandığında gereksiz yere çözme işlemine girmez; sadece gerçekten ihtiyaç duyduğunda defrost yapar. Bu da ısıtma sürecinde kesintileri önler ve enerji kaybını minimize eder. İzmir'in kışın sertleşen rüzgarında bile Gree klimalar, iç mekanı 30 dereceye kadar ısıtabilir ve bu performansı -15 derece dış ortam sıcaklığına kadar sürdürebilir.
+                                    Birçok kullanıcı klimanın sadece \"soğutucu\" olduğunu düşünür. Ancak Gree klimaların asıl gücü kış performansında yatmaktadır. <strong className="text-gray-900">Akıllı Defrost</strong> özelliği sayesinde cihaz, dış ünite buzlandığında gereksiz yere çözme işlemine girmez; sadece gerçekten ihtiyaç duyduğunda defrost yapar. Bu da ısıtma sürecinde kesintileri önler ve enerji kaybını minimize eder. İzmir'in kışın sertleşen rüzgarında bile Gree klimalar, iç mekanı 30 dereceye kadar ısıtabilir ve bu performansı -15 derece dış ortam sıcaklığına kadar sürdürebilir.
                                 </p>
                                 <p>
-                                    Isıtma modunda "Soğuk Hava Koruması" (Warm Start) özelliği, iç ünite serpantini ısınmadan fanı çalıştırmaz. Böylece kışın klimayı açtığınızda yüzünüze soğuk rüzgar vurması gibi rahatsız edici bir durumla karşılaşmazsınız. Bu küçük dokunuşlar, Gree'nin kullanıcı konforuna verdiği önemin bir göstergesidir.
+                                    Isıtma modunda \"Soğuk Hava Koruması\" (Warm Start) özelliği, iç ünite serpantini ısınmadan fanı çalıştırmaz. Böylece kışın klimayı açtığınızda yüzünüze soğuk rüzgar vurması gibi rahatsız edici bir durumla karşılaşmazsınız. Bu küçük dokunuşlar, Gree'nin kullanıcı konforuna verdiği önemin bir göstergesidir.
                                 </p>
                             </div>
 
@@ -280,7 +280,7 @@ export default function ModellerPage() {
                                     Müşterilerimizin en çok sorduğu sorulardan biri bu iki başarılı model arasındaki farktır. <strong className="text-gray-900">Fairy Serisi</strong>, Gree'nin lüks ve performans odaklı serisidir. Daha geniş iç ünite yapısı, daha güçlü fan motoru ve A+++ verimlilik değerleri (soğutmada) ile öne çıkar. Eğer salonunuz genişse ve görsel estetik sizin için ön plandaysa Fairy doğru tercihtir.
                                 </p>
                                 <p>
-                                    <strong className="text-gray-900">Pular Serisi</strong> ise fiyat-performans ve kompakt boyut arayanlar için geliştirilmiştir. A++ enerji sınıfındadır ve boyutları Fairy'ye göre biraz daha küçüktür. Bu özelliği ile pencere üstü gibi dar alanlara montaj kolaylığı sağlar. Ayrıca Pular'ın iç ünite tasarımı daha "köşeli" ve moderndir. Teknik olarak her iki seri de aynı dayanıklı dış ünite ve G10 Inverter kompresör altyapısını kullanır; bu nedenle dayanıklılık açısından bir farkları yoktur.
+                                    <strong className="text-gray-900">Pular Serisi</strong> ise fiyat-performans ve kompakt boyut arayanlar için geliştirilmiştir. A++ enerji sınıfındadır ve boyutları Fairy'ye göre biraz daha küçüktür. Bu özelliği ile pencere üstü gibi dar alanlara montaj kolaylığı sağlar. Ayrıca Pular'ın iç ünite tasarımı daha \"köşeli\" ve moderndir. Teknik olarak her iki seri de aynı dayanıklı dış ünite ve G10 Inverter kompresör altyapısını kullanır; bu nedenle dayanıklılık açısından bir farkları yoktur.
                                 </p>
                             </div>
 
@@ -292,31 +292,13 @@ export default function ModellerPage() {
                             </div>
 
                             <div className="pt-12 space-y-4">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">Gree Klima Hata Kodları: Cihazınız Ne Anlatmak İstiyor?</h3>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-4">Deytes Mühendislik ve Uzun Ömür Garantisi</h3>
                                 <p>
-                                    Modern Gree klimalar, kendi kendini tanılama (Self-Diagnosis) sistemine sahiptir. Cihazda bir sorun oluştuğunda iç ünite ekranında bir kod belirir. Bu kodlar, teknisyenlerimizin arızayı çok daha hızlı çözmesini sağlar. İşte en sık karşılaşılan Gree hata kodları ve anlamları:
+                                    Satın aldığınız her Gree klima, Deytes İklimlendirme'nin 22 yıllık mühendislik tecrübesiyle koruma altındadır. Bizler sadece bir cihaz kurmuyoruz; İzmir'in zorlu iklim koşullarında cihazınızın en yüksek verimle çalışmasını sağlayacak bir sistem tasarlıyoruz. Gelişmiş üretim teknolojisi sayesinde arıza oranları pazar ortalamasının çok altında olan Gree ürünlerimizi, periyodik bakım ve kontrol süreçlerimizle destekliyoruz.
                                 </p>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div className="p-4 border border-gray-100 rounded-xl bg-gray-50">
-                                        <p><strong className="text-blue-600">F0 Hata Kodu:</strong> Soğutucu akışkan (gaz) eksikliği veya sistemde bir tıkanıklık olduğunu gösterir. Cihaz koruma moduna geçer.</p>
-                                    </div>
-                                    <div className="p-4 border border-gray-100 rounded-xl bg-gray-50">
-                                        <p><strong className="text-blue-600">E1 Hata Kodu:</strong> Yüksek basınç korumasıdır. Genellikle dış ünitedeki kirlilik veya zayıf hava akışı nedeniyle oluşur.</p>
-                                    </div>
-                                    <div className="p-4 border border-gray-100 rounded-xl bg-gray-50">
-                                        <p><strong className="text-blue-600">E5 Hata Kodu:</strong> Aşırı akım koruması. Voltaj dalgalanması veya kompresörün zorlanması durumunda tetiklenir.</p>
-                                    </div>
-                                    <div className="p-4 border border-gray-100 rounded-xl bg-gray-50">
-                                        <p><strong className="text-blue-600">H6 Hata Kodu:</strong> İç ünite fan motoru geri bildirimi hatasıdır. Fanın dönmediğini veya sensörünün okuma yapamadığını gösterir.</p>
-                                    </div>
-                                    <div className="p-4 border border-gray-100 rounded-xl bg-gray-50">
-                                        <p><strong className="text-blue-600">U8 Hata Kodu:</strong> İç ünite kartında bir iletişim veya donanım sorunu olduğunu işaret eder.</p>
-                                    </div>
-                                    <div className="p-4 border border-gray-100 rounded-xl bg-gray-50">
-                                        <p><strong className="text-blue-600">P6 Hata Kodu:</strong> IPM modülü üzerinden aşırı sıcaklık veya donanım hatası alındığında görünür.</p>
-                                    </div>
-                                </div>
-                                <p className="text-sm font-bold text-orange-600">Önemli: Hata kodu aldığınızda cihazı kapatıp sigortasını indirin ve mutlaka yetkili servis (Deytes) ile iletişime geçin. Bilinçsiz müdahale garanti dışı durumlara yol açabilir.</p>
+                                <p>
+                                    Cihazınızın yıllar boyu ilk günkü sessizliğinde ve tasarrufunda çalışması için montaj aşamasında gösterdiğimiz titizliği (çift kademeli vakumlama ve doğru konumlandırma), satış sonrası destek süreçlerimizde de aynı şeffaflıkla devam ettiriyoruz. Güvenilir, dürüst ve sürdürülebilir konfor arayanların İzmir'deki tek adresi olmayı sürdürüyoruz.
+                                </p>
                             </div>
 
                             <div className="pt-12 space-y-4">
@@ -335,7 +317,7 @@ export default function ModellerPage() {
                                     </li>
                                 </ul>
                                 <p>
-                                    Gree'nin "0.5W Standby" özelliği sayesinde klimanız kapalıyken bile enerji tasarrufu yapmaya devam eder. Birçok standart klima, fişe takılıyken bekleme modunda 3-5W enerji tüketirken, Gree modelleri bu tüketimi 0.5W seviyesine indirerek yıllık bazda gizli elektrik maliyetlerini minimuma çeker.
+                                    Gree'nin \"0.5W Standby\" özelliği sayesinde klimanız kapalıyken bile enerji tasarrufu yapmaya devam eder. Birçok standart klima, fişe takılıyken bekleme modunda 3-5W enerji tüketirken, Gree modelleri bu tüketimi 0.5W seviyesine indirerek yıllık bazda gizli elektrik maliyetlerini minimuma çeker.
                                 </p>
                             </div>
 
@@ -345,7 +327,7 @@ export default function ModellerPage() {
                                     İzmir'de klima bir lüks değil, zorunluluktur. Sıcak yaz akşamlarında mışıl mışıl uyumanın ya da kışın doğalgaz faturası derdi olmadan ısınmanın en güvenli yolu Gree sistemlerinden geçer. <strong className="text-gray-900">Deytes İklimlendirme</strong> olarak biz, sadece bir kutu klima teslim etmiyoruz. Biz, evinizin veya iş yerinizin konfor mimarisini üstleniyoruz.
                                 </p>
                                 <p>
-                                    İzmir'in her noktasına (Karşıyaka'dan Çeşme'ye, Bornova'dan Güzelbahçe'ye) yayılan teknik servis ağımız, deneyimli keşif ekibimiz ve müşteri odaklı satış sonrası desteğimizle Gree kalitesini İzmirli sıcaklığıyla birleştiriyoruz. Bizim için başarı, montaj bittikten sonra "iyi ki bu klimayı almışım" diyen kullanıcıların mutluluğudur.
+                                    İzmir'in her noktasına (Karşıyaka'dan Çeşme'ye, Bornova'dan Güzelbahçe'ye) yayılan teknik servis ağımız, deneyimli keşif ekibimiz ve müşteri odaklı satış sonrası desteğimizle Gree kalitesini İzmirli sıcaklığıyla birleştiriyoruz. Bizim için başarı, montaj bittikten sonra \"iyi ki bu klimayı almışım\" diyen kullanıcıların mutluluğudur.
                                 </p>
                                 <div className="bg-gray-900 text-white p-10 rounded-3xl my-10 relative overflow-hidden">
                                     <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 blur-[100px] rounded-full -mr-32 -mt-32"></div>
@@ -384,7 +366,7 @@ export default function ModellerPage() {
                                         </div>
                                         <div className="space-y-4 p-8 rounded-3xl bg-gray-50/50 border border-gray-100 hover:bg-white hover:shadow-xl transition-all">
                                             <h4 className="text-xl font-bold text-gray-900">Gree klima kaliteli midir, hangi ülkenin markasıdır?</h4>
-                                            <p className="text-gray-600">Gree, merkezi Çin'de bulunan ancak tüm dünyaya (ABD, Avrupa, Asya) ihracat yapan global bir iklimlendirme devidir. Kalite standartları açısından Japon devleri ile yarışır düzeydedir ve birçok Japon markasının üretim bandı da Gree fabrikalarında yer almaktadır. Dayanıklılığı ile "dünyanın en sağlam klimaları" arasında gösterilir.</p>
+                                            <p className="text-gray-600">Gree, merkezi Çin'de bulunan ancak tüm dünyaya (ABD, Avrupa, Asya) ihracat yapan global bir iklimlendirme devidir. Kalite standartları açısından Japon devleri ile yarışır düzeydedir ve birçok Japon markasının üretim bandı da Gree fabrikalarında yer almaktadır. Dayanıklılığı ile \"dünyanın en sağlam klimaları\" arasında gösterilir.</p>
                                         </div>
                                         <div className="space-y-4 p-8 rounded-3xl bg-gray-50/50 border border-gray-100 hover:bg-white hover:shadow-xl transition-all">
                                             <h4 className="text-xl font-bold text-gray-900">Isı pompası sistemleri kışın İzmir'de yeterli olur mu?</h4>
@@ -396,7 +378,7 @@ export default function ModellerPage() {
                                         </div>
                                         <div className="space-y-4 p-8 rounded-3xl bg-gray-50/50 border border-gray-100 hover:bg-white hover:shadow-xl transition-all">
                                             <h4 className="text-xl font-bold text-gray-900">Klima montajı ne kadar sürer?</h4>
-                                            <p className="text-gray-600">Standart bir duvar tipi klima montajı, profesyonel ekiplerimiz tarafından yaklaşık 2-3 saat içerisinde tamamlanır. Bu süreye kurulum, delme, bakır borulama, kablo bağlantıları ve en önemlisi olan "vakum süreci" dahildir.</p>
+                                            <p className="text-gray-600">Standart bir duvar tipi klima montajı, profesyonel ekiplerimiz tarafından yaklaşık 2-3 saat içerisinde tamamlanır. Bu süreye kurulum, delme, bakır borulama, kablo bağlantıları ve en önemlisi olan \"vakum süreci\" dahildir.</p>
                                         </div>
                                     </div>
                                 </div>

@@ -57,12 +57,12 @@ export default function SEOText() {
             </div>
 
             <div className="pt-6 border-t border-gray-100 mt-8">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Teknik Detaylar ve Gree Klima Hata Kodları</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Deytes Kalite ve Sürdürülebilirlik Vizyonu</h3>
               <p>
-                Satışını ve kurulumunu yaptığımız her bir ürün, en yüksek kalite standartlarında üretilmiştir. Ancak tıpkı her elektronik cihazda olduğu gibi zaman zaman teknik bilgilendirmelere ihtiyaç duyabilirsiniz. İnternette en çok aratılan <strong className="text-gray-800">Gree F0 hata kodu</strong>, <strong className="text-gray-800">H6</strong>, <strong className="text-gray-800">E5</strong>, veya <strong className="text-gray-800">U8 hata kodu</strong> gibi uyarılara aşina olmak, aslında cihazın size "Benim bir servise ya da periyodik bakıma ihtiyacım var" deme şeklidir. 
+                Deytes İklimlendirme olarak sadece bugün için değil, gelecek kuşaklar için de sorumluluk alıyoruz. Satışını yaptığımız tüm Gree klimalar, ozon tabakasına zarar vermeyen çevre dostu <strong>R32 soğutucu akışkan</strong> teknolojisi ile donatılmıştır. Yüksek enerji verimliliği (A+++), sadece sizin elektrik faturalarınızı düşürmekle kalmaz; aynı zamanda karbon ayak izinizi azaltarak gezegenimizin korunmasına katkı sağlar.
               </p>
               <p className="mt-4">
-                Özellikle cihaz içi gaz eksiği veya basınç düzensizliğine işaret eden F0 kodu gibi durumlarda asla dışarıdan bir müdahaleye izin vermemeli, Deytes İklimlendirme'nin yetkili servis ağına başvurmalısınız. Bizler, klimanızı ilk aldığınız günkü satış coşkusunu ve güvenini, ilerleyen yıllardaki bakım onarım süreçlerinde de aynı samimiyet ve şeffaflıkla devam ettiriyoruz.
+                Süreklilik arz eden müşteri memnuniyeti politikamız gereği, satış sonrası süreçlerde de her zaman yanınızdayız. Gelişmiş üretim teknolojisi sayesinde arıza oranları pazar ortalamasının çok altında olan Gree ürünlerimizi, 22 yıllık mühendislik tecrübemizle birleştiriyoruz. Güvenilir, dürüst ve şeffaf hizmet anlayışımızla İzmir'in iklimlendirme geleceğini birlikte inşa ediyoruz.
               </p>
             </div>
 

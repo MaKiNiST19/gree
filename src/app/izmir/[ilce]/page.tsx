@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: Props) {
     const titleName = district ? district.name : params.ilce;
 
     return generateSEO({
-        title: `${titleName} Gree Klima Servisi ve Satışı | İzmir`,
-        description: `${titleName} ilçesinde Gree Klima arıza servisi, yetkili satış, montaj ve bakım çözümleri. Hızlı, garantili ve 7/24 orijinal cihaz hizmeti Deytes İklimlendirme çatısında.`,
+        title: `${titleName} Gree Klima Satış ve Kurulum | İzmir`,
+        description: `${titleName} ilçesinde Gree Klima yetkili satış, montaj ve keşif çözümleri. A+++ Inverter teknolojisi ve profesyonel iklimlendirme desteği Deytes İklimlendirme güvencesiyle.`,
         pathname: `/izmir/${params.ilce}`,
     });
 }
@@ -49,9 +49,9 @@ export default function IlcePage({ params }: Props) {
     ]);
 
     const faqs = [
-        { question: `${ilceAdi} bölgesine servis ücreti farklı mı?`, answer: "Hayır. Deytes İzmir merkez mobil ağı içerisindeki tüm adreslere standart olarak sadece arıza keşif bedeli uygular, hiçbir ekstra lokasyon farkı sunmaz." },
-        { question: `${ilceAdi} içerisinde cihaz sök-tak ve taşıma hizmetiniz var mı?`, answer: "Kesinlikle evet. Atmosfere zarar vermeyen %100 gaz muhafaza yöntemiyle taşıma sonrası profesyonel, temiz yeniden montaj sunuyoruz." },
-        { question: "En kısa sürede arızaya müdahale ediyor musunuz?", answer: "Yaz dönemi dışındaki normal periyotlarda arıza ihbarınıza istinaden ortalama 24 saat, genel durumda dahi çok hızlı reaksiyon yeteneğimiz bulunmaktadır." }
+        { question: `${ilceAdi} bölgesine keşif hizmeti ücretli mi?`, answer: "Hayır. Deytes İzmir genelindeki tüm adreslere ücretsiz keşif ve BTU analiz desteği sunar, hiçbir lokasyon farkı gözetmez." },
+        { question: `${ilceAdi} içerisinde cihaz sök-tak ve taşıma hizmetiniz var mı?`, answer: "Kesinlikle evet. Mevcut Gree cihazınızın taşınması ve yeni yerinde profesyonel montajı süreçlerinde uzman ekiplerimizle hizmetinizdeyiz." },
+        { question: "En kısa sürede montaj gerçekleştiriyor musunuz?", answer: "Satın aldığınız cihazın kurulumu için ekiplerimiz ortalama 24-48 saat içerisinde adresinize ulaşıp profesyonel vakumlu montajı tamamlamaktadır." }
     ];
 
     return (
@@ -62,7 +62,7 @@ export default function IlcePage({ params }: Props) {
             <section className="bg-blue-900 py-16 px-4 text-center">
                 <div className="max-w-4xl mx-auto">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                        {ilceAdi} Gree Klima Servisi, Satış ve Montaj Hizmetleri
+                        {ilceAdi} Gree Klima Satış, Montaj ve Keşif Hizmetleri
                     </h1>
                     <p className="text-xl text-blue-200">
                         {ilceAdi} bölgesindeki ev ve ofisleriniz için en kusursuz A+++ Inverter cihazları ve 1 yıl garantili yetkili teknik hizmet.
@@ -74,13 +74,13 @@ export default function IlcePage({ params }: Props) {
 
             <article className="py-20 bg-white px-4">
                 <div className="max-w-4xl mx-auto prose prose-lg lg:prose-xl text-gray-700">
-                    <p>Ege bölgesinin incisi İzmir ve özellikle nüfus yoğunluğu yüksek <strong>{ilceAdi}</strong> sınırları içerisindeki mimari yapıların her biri; yıl boyu değişen deniz meltemi nemi veya kuru ayaz iklim profillerine maruz kalmaktadır. {ilceAdi} lokasyonuna hizmette hız ve kalitenin güvenilir isimlerinden Deytes İklimlendirme olarak; cihazınızın markalardaki devi olan <Link href="/">Gree</Link> modellerinin kurulumundan sökülüp taşınmasına, ani arıza hata teşhisinden derin kimyasal filtre bakım restorasyonuna kadar ihtiyacınız olan HVAC kurumsal tüm departmanlarıyla 7/24 arkanızdayız.</p>
+                    <p>Ege bölgesinin incisi İzmir ve özellikle nüfus yoğunluğu yüksek <strong>{ilceAdi}</strong> sınırları içerisindeki mimari yapıların her biri; yıl boyu değişen deniz meltemi nemi veya kuru ayaz iklim profillerine maruz kalmaktadır. {ilceAdi} lokasyonuna hizmette hız ve kalitenin güvenilir isimlerinden Deytes İklimlendirme olarak; yeni nesil <Link href="/">Gree</Link> modellerinin satışından profesyonel kurulumuna, periyodik bakım kontrol merkezinden verimlilik analizlerine kadar ihtiyacınız olan tüm iklimlendirme çözümleriyle yanınızdayız.</p>
 
-                    <h2 className="text-blue-900">{ilceAdi} Gree Klima Satış ve Profesyonel Kurulum Prosedürü</h2>
-                    <p>Pek çok müşteri basit ucuz bir model mi, yoksa uzun yıllar arkasına dahi bakmadan yatak odasını ultra sessiz çalışarak donatan lüks bir cihaz mı tercih etmesi gerektiği konusunda emin olamaz. {ilceAdi} lokasyonları için görevini ivedilikle gerçekleştiren teknik keşif (BTU mimari hesabı eksperleri) teknisyenlerimiz, size sadece doğru kapasiteyi önermekle kalmaz, <Link href="/izmir-gree-klima-satis">Klima Satış ve Seçimi</Link> noktasında Pular, Lomo ya da Fairy Inverter serisindeki dev <Link href="/duvar-tipi-gree-klimalar">duvar tipi ev modelleri</Link> gibi paha biçilemez Inverter avantajlar paketini ince, kompakt tasarımlarla duvarlarınıza monte eder. Tüm kurulum işlemlerinde istisnasız <strong>uluslararası standart çift kademeli vakumlama</strong> cihazı kullanılarak gaz sistemin kompresör kompresyon kalbi ve motoru %100 güvenceye alınmaktadır.</p>
+                    <h2 className="text-blue-900">{ilceAdi} Gree Klima Uzman Satış ve Mühendislik Odaklı Kurulum</h2>
+                    <p>Pek çok müşteri basit bir model mi, yoksa faturada en yüksek tasarrufu sağlayan sessiz bir teknoloji mi tercih etmesi gerektiği konusunda emin olamaz. {ilceAdi} lokasyonları için görevini ivedilikle gerçekleştiren uzmanlarımız, size sadece doğru kapasiteyi önermekle kalmaz, <Link href="/gree-klima-satis-izmir">Klima Satış ve Seçimi</Link> noktasında Pular, Fairy ya da Airy serisindeki dev avantajlar paketini ince tasarımlarla duvarlarınıza monte eder. Tüm kurulum işlemlerinde istisnasız <strong>uluslararası standart çift kademeli vakumlama</strong> işlemi yapılarak gaz sisteminin verimliliği ve kompresör ömrü %100 güvenceye alınmaktadır.</p>
 
-                    <h2 className="text-blue-900">{ilceAdi} Gree Arıza Müdahalesi, Onarım ve Yedek Parça Orijinalliği</h2>
-                    <p>Yaz sıcağında aniden çalışmayı kesip hata kodu veren cihazlar veya kışın dış ünitesi tamamen buzda kitlenip EPROM beynini bloke eden arızalı komponentlerde; mahalle arası ehil olmayan bir tamircinin cihazı tamamen yakıp hurdaya çıkarma riski gözle görülür kadar devasadır. Gree Inverter motor ve ana iletişim IPM panelleri son derece hassas yazılımsal kodlu çalışırlar. <Link href="/izmir-gree-klima-servisi">Gree %100 Yüksek Donanımlı Klima Servisi</Link> ekiplerimiz {ilceAdi} içindeki çağrılarınıza cevap verdiğinde, ilk amaçları her zaman anakart devresini yenisi ile hemen 7 bin TL ödetip değiştirmek değil; varsa o lehim veya güç trafosu kompanzasyon arızasını orijinal komponentlerle laboratuvar düzeyinde milimetrik olarak çok daha ekonomik olarak "tamir etmeye ve yenilemeye" çalışmaktır.</p>
+                    <h2 className="text-blue-900">{ilceAdi} Gree Klima ile Sürdürülebilir Konfor ve Enerji Tasarrufu</h2>
+                    <p>Yüksek kalite standartlarında üretilen Gree ürünleri, İzmir'in sıcak yaz aylarında kesintisiz performans sunarken tasarrufu elden bırakmaz. {ilceAdi} çevresindeki konutlarda enerji giderlerini minimize etmek için A+++ Inverter motor teknolojisi, mekanik bir mükemmeliyet sergiler. Bizler Deytes İklimlendirme olarak, cihazınızı sadece kurmakla kalmıyor; ileriye dönük verimlilik analizlerimiz ve periyodik "Check-Up" hizmetlerimizle cihazınızın ilk günkü sessizliğinde ve ekonomisinde çalışmasını sağlıyoruz. Amacımız, en teknolojik iklimlendirme konforuna İzmir genelinde çok daha ekonomik ve erişilebilir yollarla ulaşmanızı sağlamaktır.</p>
 
                     <div className="bg-orange-50 border-l-4 border-orange-500 p-6 my-10 rounded">
                         Eğer {ilceAdi} içerisinde cihazlarınız çok yoğun tahliye suyu damlatıyor, koku üflüyor veya çok elektrik faturaları harcıyorsa, <Link href="/izmir-gree-klima-bakim" className="text-orange-700 font-bold hover:underline">1 Saat Süren İlaçlı Detay Temizlik ve Bakımını</Link> muhakkak Deytes laboratuvar mühendisliğinden talep etmelisiniz.

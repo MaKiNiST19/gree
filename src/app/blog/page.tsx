@@ -5,15 +5,15 @@ import BlogCard from '@/components/BlogCard';
 import CTA from '@/components/CTA';
 
 export const metadata = generateSEO({
-    title: 'İzmir Klima Bilgi Merkezi | Arıza, Bakım, Montaj',
-    description: 'Klimalar hakkında uzman teknik analiz, arıza hata kodu çözümleri (F0, E1, vb), bakım periyodları ve Inverter teknolojisi üzerine E-E-A-T uyumlu blog.',
+    title: 'İzmir İklimlendirme Rehberi | Ürün İncelemeleri ve Teknoloji',
+    description: 'Gree klimalar, inverter teknolojisi, enerji tasarrufu ve modern iklimlendirme çözümleri üzerine uzman rehber ve incelemeler.',
     pathname: '/blog',
 });
 
 export default function BlogIndexPage() {
     const breadcrumb = generateBreadcrumbSchema([
         { name: 'Ana Sayfa', url: '/' },
-        { name: 'Klima Bilgi Kütüphanesi', url: '/blog' }
+        { name: 'İklimlendirme Rehberi', url: '/blog' }
     ]);
 
     return (
@@ -23,10 +23,10 @@ export default function BlogIndexPage() {
             <section className="bg-blue-900 py-20 px-4 text-center">
                 <div className="max-w-4xl mx-auto">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                        İzmir Klima İhtisas ve Bilgi Merkezi (Otorite Blog)
+                        Gree İklimlendirme ve Teknoloji Rehberi
                     </h1>
                     <p className="text-xl text-blue-200">
-                        Cihazlarınızın mekanik dünyasına inin! İzmir bölgesinde en çok karşılaşılan kompresör kilitlenmelerinden, Gree Inverter sırlarından teknik arızalara kadar tamamen profesyonel kılavuz.
+                        Modern iklimlendirme dünyasındaki en son yenilikler, enerji tasarrufu ipuçları ve Gree'nin ödüllü teknolojileri üzerine profesyonel bir bakış.
                     </p>
                 </div>
             </section>
@@ -35,9 +35,9 @@ export default function BlogIndexPage() {
                 <div className="max-w-[1400px] mx-auto">
                     {/* Categories Filter */}
                     <div className="flex flex-wrap gap-4 mb-20 justify-center">
-                        {['Arıza', 'Bakım', 'Montaj', 'Teknik'].map(cat => (
+                        {['İnceleme', 'Rehber', 'Tasarruf', 'Teknoloji'].map(cat => (
                             <span key={cat} className="px-8 py-2.5 bg-gray-50 border border-gray-100 rounded-full text-blue-800 font-bold shadow-sm whitespace-nowrap text-sm cursor-pointer hover:bg-[#009be1] hover:text-white transition-all duration-300">
-                                {cat} Kütüphanesi
+                                {cat} Bloğu
                             </span>
                         ))}
                     </div>

@@ -22,8 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/izmir-klima-bakim',
         '/izmir-klima-fiyatlari',
         '/izmir-inverter-klima',
-        '/izmir-klima-ariza-kodlari',
-        '/gree-ariza-kodlari',
         '/btu-hesaplama',
         '/btu-hesaplama-izmir',
         '/gree-vs-mitsubishi',
@@ -37,13 +35,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/klima-saatlik-tuketim-tablosu',
         '/izmir-klima',
         '/izmir-klima-fiyat-hesaplama',
-        '/klima-cok-elektrik-yakiyor',
-        '/klima-sogutmuyor',
         '/klima-gece-kac-derece-olmali',
         '/klima-surekli-calismali-mi',
         '/klima-kac-derecede-yakmali',
         '/ev-klimasi-izmir',
-        '/gree-f0-hata-kodu', '/gree-e1-hata-kodu', '/gree-e2-hata-kodu', '/gree-e5-hata-kodu', '/gree-h6-hata-kodu', '/gree-l3-hata-kodu', '/gree-u8-hata-kodu', '/gree-p0-hata-kodu', '/gree-p6-hata-kodu', '/gree-f3-hata-kodu',
         '/15-m2-klima', '/20-m2-klima', '/25-m2-klima', '/30-m2-klima', '/35-m2-klima', '/40-m2-klima', '/45-m2-klima', '/50-m2-klima', '/60-m2-klima', '/70-m2-klima',
         '/1-arti-1-ev-klimasi', '/2-arti-1-ev-klimasi', '/3-arti-1-ev-klimasi', '/yuksek-tavanli-ev-klimasi', '/gunes-goren-ev-klimasi', '/cati-kati-klima-cozumu', '/dubleks-ev-klimasi', '/kucuk-ev-icin-klima', '/rezidans-klima-cozumu', '/mustakil-ev-klimasi',
         '/sessiz-klima-izmir', '/yatak-odasi-icin-klima', '/bebekli-ev-icin-klima', '/klima-ve-alerji', '/klima-ve-astim', '/klima-ve-bebek-sagligi', '/klima-uyurken-acik-kalir-mi', '/gece-klima-kac-derece',
@@ -51,18 +46,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const sitemapStatic = staticRoutes.map((route) => {
         const isFaturaEnergy = ['elektrik', 'fatura', 'enerji', 'tuketim', 'ekonomi', 'harcar'].some(k => route.includes(k));
-        const isProblemCluster = ['sogutmuyor', 'gece-kac', 'surekli', 'derecede-yakmali', 'satis', 'montaj', 'servis', 'bakim'].some(k => route.includes(k));
+        const isProblemCluster = ['gece-kac', 'surekli', 'derecede-yakmali', 'satis', 'montaj', 'servis', 'bakim'].some(k => route.includes(k));
         const isM2 = route.includes('-m2-klima');
         const isSenaryo = ['-arti-', 'tavanli', 'gunes', 'cati', 'dubleks', 'kucuk', 'rezidans', 'mustakil'].some(k => route.includes(k));
         const isKonfor = ['sessiz', 'yatak', 'bebek', 'alerji', 'astim', 'gece', 'uyurken'].some(k => route.includes(k));
-        const isError = route.includes('-hata-kodu');
 
         let currentPriority = 0.8;
         if (route === '' || route === '/izmir-klima' || route === '/ev-klimasi-izmir') {
             currentPriority = 1.0;
-        } else if (route === '/izmir-klima-fiyat-hesaplama' || route === '/gree-ariza-kodlari' || isM2) {
+        } else if (route === '/izmir-klima-fiyat-hesaplama' || isM2) {
             currentPriority = 0.95;
-        } else if (isFaturaEnergy || isProblemCluster || isSenaryo || isKonfor || isError || route === '/deytes-teknik-ekibi') {
+        } else if (isFaturaEnergy || isProblemCluster || isSenaryo || isKonfor || route === '/deytes-teknik-ekibi') {
             currentPriority = 0.9;
         }
 
