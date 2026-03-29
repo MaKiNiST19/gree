@@ -22,7 +22,29 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-  }
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'tr_TR',
+    url: 'https://www.greeklimaizmir.com/',
+    siteName: 'Deytes İklimlendirme',
+    title: 'Gree Klima İzmir Yetkili Bayi & Servis | Deytes İklimlendirme',
+    description: 'İzmir Gree klima yetkili bayi, profesyonel montaj ve teknik servis. Gree Inverter klima fiyatları ve ücretsiz keşif için ulaşın. Karabağlar, Konak, Buca.',
+    images: [
+      {
+        url: '/gree-klima-izmir.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Gree Klima İzmir - Deytes İklimlendirme',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gree Klima İzmir Yetkili Bayi & Servis | Deytes İklimlendirme',
+    description: 'İzmir Gree klima yetkili bayi, profesyonel montaj ve teknik servis. Gree Inverter klima fiyatları ve ücretsiz keşif için ulaşın. Karabağlar, Konak, Buca.',
+    images: ['/gree-klima-izmir.jpg'],
+  },
 };
 
 export default function RootLayout({
