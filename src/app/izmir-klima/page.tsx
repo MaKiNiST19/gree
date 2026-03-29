@@ -79,7 +79,7 @@ export default function IzmirKlimaPillarPage() {
 
                     <h2 className="text-3xl text-blue-900 font-bold mt-10 mb-5 border-b border-gray-100 pb-2">Klima Montajında En Sık Yapılan Hatalar (Vakum Katliamı)</h2>
                     <p>
-                        Bu makaleyi okuyan İzmir bölgesindeki tüketicinin %90 ının evine gelen ustanın, sırf canı tez bir an evvel gidip paramı alayım mantığında 1 saati çalınmasın diye cihaza <strong>Vakum Pompası (Elektrikli bir Alet)</strong> bağlamadığını garanti edebiliriz. Klimanızı <Link href="/izmir-gree-klima-montaj">Kusursuz Oksi-Azotlu Garantili Kurulum Merkezinize Taşıttırdığınızda</Link> biz o 4 metrelik dış atmosfere atılan bakır borunun içine çift kompresyonlu vakum ahtapotumuzu vurarak, nemli oksijeni sıfıra milimetrik emecek şekilde kurulturuz!
+                        Bu makaleyi okuyan İzmir bölgesindeki tüketicinin %90 ının evine gelen ustanın, sırf canı tez bir an evvel gidip paramı alayım mantığında 1 saati çalınmasın diye cihaza <strong>Vakum Pompası (Elektrikli bir Alet)</strong> bağlamadığını garanti edebiliriz. Klimanızı <Link href="/klima-montaj-izmir">Kusursuz Oksi-Azotlu Garantili Kurulum Merkezinize Taşıttırdığınızda</Link> biz o 4 metrelik dış atmosfere atılan bakır borunun içine çift kompresyonlu vakum ahtapotumuzu vurarak, nemli oksijeni sıfıra milimetrik emecek şekilde kurulturuz!
                     </p>
                     <p>
                         Bu yapılmazsa R32 (Yeni Soğutucu Devir Dayanak Gücü) yanıcı türevi gazı içerdeki suyla harmanlanınca cihazınızın o şatafatlı SEER (verimlilik - A+++) değeri faturada D sınıfına düşecek; Inverter yağınız pelte (çamurlaşma korozyonu) bağlayıp iç kompresyon motor rulmanını traktör gibi parçalayacaktır! Cihazı almak %25 ise, onu Deytes ile kurmak %75 performanstır.
@@ -105,13 +105,13 @@ export default function IzmirKlimaPillarPage() {
                     </p>
 
                     <p>
-                        Hiçbir su damlaması <strong>(Drenaj Tıkanması)</strong> ya da <Link href="/blog/klima-filtresi-kac-ayda-temizlenmeli">filtre doluluğu tıkanması</Link> klimanın suçu değildir; tamamen senede 1 kez yapılması ihmal edilen %100 Orijinal Tazyikli İlaçlı (Antibakteriyel Lejyoner) yıkamasından hasıldır. Evdeki o zehir mantarlarını <Link href="/izmir-gree-klima-bakim">İzmir Kurumsal Klima Bakım Devriyesiyle</Link> anında (branda ile yerlere damlamadan) sökebiliriz.
+                        Hiçbir su damlaması <strong>(Drenaj Tıkanması)</strong> ya da <Link href="/blog/klima-filtresi-kac-ayda-temizlenmeli">filtre doluluğu tıkanması</Link> klimanın suçu değildir; tamamen senede 1 kez yapılması ihmal edilen %100 Orijinal Tazyikli İlaçlı (Antibakteriyel Lejyoner) yıkamasından hasıldır. Evdeki o zehir mantarlarını <Link href="/klima-bakim-izmir">İzmir Kurumsal Klima Bakım Devriyesiyle</Link> anında (branda ile yerlere damlamadan) sökebiliriz.
                     </p>
 
                     <div className="bg-blue-50 border-l-4 border-blue-500 p-8 my-10 rounded-lg shadow-sm">
                         <h3 className="text-xl font-bold text-blue-800 mb-2">Gree Inverter Teknolojisi Neden Piyasa Liderliğine Oynuyor?</h3>
                         <p className="text-gray-700 m-0">
-                            "Klima dünyasının en büyük gizli eli!" Olarak bilinir Gree markası. Tüketici bu markayı her ne kadar Daikin ya da Japon akranları kadar televizyonda görmemiş olsa da; Dünya çapındaki her kapıdan çıkan 3 cihazdan biri (OEM olarak farklı logolarda) <strong>Gree Fabrikalarındaki O G10 Kompresör Mucizesinden Üretilip İthal</strong> olmaktadır. Yani 3 kat parasını verip aldığınız o A marka cihazın motor kapağını söktüğümüzde altından %99 Çin devi olan Gree markalı "Hertz" yongaları çıkacaktır. Sizi <Link href="/izmir-gree-klima-satis">Gree Orijinal Fiyat Peşin Taksit Avantajlarında Doğrudan Müşteri Yapabilmek...</Link> işte en çok gurur duyduğumuz 15 yıllık güven misyonudur.
+                            "Klima dünyasının en büyük gizli eli!" Olarak bilinir Gree markası. Tüketici bu markayı her ne kadar Daikin ya da Japon akranları kadar televizyonda görmemiş olsa da; Dünya çapındaki her kapıdan çıkan 3 cihazdan biri (OEM olarak farklı logolarda) <strong>Gree Fabrikalarındaki O G10 Kompresör Mucizesinden Üretilip İthal</strong> olmaktadır. Yani 3 kat parasını verip aldığınız o A marka cihazın motor kapağını söktüğümüzde altından %99 Çin devi olan Gree markalı "Hertz" yongaları çıkacaktır. Sizi <Link href="/gree-klima-satis-izmir">Gree Orijinal Fiyat Peşin Taksit Avantajlarında Doğrudan Müşteri Yapabilmek...</Link> işte en çok gurur duyduğumuz 15 yıllık güven misyonudur.
                         </p>
                     </div>
 

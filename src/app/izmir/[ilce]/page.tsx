@@ -83,7 +83,7 @@ export default function IlcePage({ params }: Props) {
                     <p>Yüksek kalite standartlarında üretilen Gree ürünleri, İzmir'in sıcak yaz aylarında kesintisiz performans sunarken tasarrufu elden bırakmaz. {ilceAdi} çevresindeki konutlarda enerji giderlerini minimize etmek için A+++ Inverter motor teknolojisi, mekanik bir mükemmeliyet sergiler. Bizler Deytes İklimlendirme olarak, cihazınızı sadece kurmakla kalmıyor; ileriye dönük verimlilik analizlerimiz ve periyodik "Check-Up" hizmetlerimizle cihazınızın ilk günkü sessizliğinde ve ekonomisinde çalışmasını sağlıyoruz. Amacımız, en teknolojik iklimlendirme konforuna İzmir genelinde çok daha ekonomik ve erişilebilir yollarla ulaşmanızı sağlamaktır.</p>
 
                     <div className="bg-orange-50 border-l-4 border-orange-500 p-6 my-10 rounded">
-                        Eğer {ilceAdi} içerisinde cihazlarınız çok yoğun tahliye suyu damlatıyor, koku üflüyor veya çok elektrik faturaları harcıyorsa, <Link href="/izmir-gree-klima-bakim" className="text-orange-700 font-bold hover:underline">1 Saat Süren İlaçlı Detay Temizlik ve Bakımını</Link> muhakkak Deytes laboratuvar mühendisliğinden talep etmelisiniz.
+                        Eğer {ilceAdi} içerisinde cihazlarınız çok yoğun tahliye suyu damlatıyor, koku üflüyor veya çok elektrik faturaları harcıyorsa, <Link href="/klima-bakim-izmir" className="text-orange-700 font-bold hover:underline">1 Saat Süren İlaçlı Detay Temizlik ve Bakımını</Link> muhakkak Deytes laboratuvar mühendisliğinden talep etmelisiniz.
                     </div>
                 </div>
             </article>

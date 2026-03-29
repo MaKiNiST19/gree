@@ -65,7 +65,7 @@ export default function EvKlimasiIzmirPage() {
                     <h2 className="text-3xl text-blue-900 font-bold mt-10 mb-5 border-b border-gray-100 pb-2">Salon – Yatak Odası – Çocuk Odası (Bölgesel İklimlendirme Ayrımı)</h2>
 
                     <p>
-                        Her odanın cihaz karakteristiği insanın oradaki eylemine göre nakış işlenmelidir. <strong>Oturma Odası veya Devasa Salonlarda</strong> (örn. <Link href="/35-m2-klima">35 m²</Link> ile <Link href="/45-m2-klima">45 m²</Link> arası) kalabalık misafirler ağırlandığından, televizyon, mutfak ısısı gibi pek çok insan terine ve donanıma karşı savaşacak "Güçlü Kas" cihazlara; örneğin <Link href="/izmir-gree-klima-satis">Gree 18.000 veya 24.000 BTU Inverter motorlu ev canavarlarına</Link> yatırım gereklidir. Bu cihazlar odayı hızla toparlar ve rölantide dahi kalabalığın radyasyonunu ezer geçer.
+                        Her odanın cihaz karakteristiği insanın oradaki eylemine göre nakış işlenmelidir. <strong>Oturma Odası veya Devasa Salonlarda</strong> (örn. <Link href="/35-m2-klima">35 m²</Link> ile <Link href="/45-m2-klima">45 m²</Link> arası) kalabalık misafirler ağırlandığından, televizyon, mutfak ısısı gibi pek çok insan terine ve donanıma karşı savaşacak "Güçlü Kas" cihazlara; örneğin <Link href="/gree-klima-satis-izmir">Gree 18.000 veya 24.000 BTU Inverter motorlu ev canavarlarına</Link> yatırım gereklidir. Bu cihazlar odayı hızla toparlar ve rölantide dahi kalabalığın radyasyonunu ezer geçer.
                     </p>
 
                     <p>

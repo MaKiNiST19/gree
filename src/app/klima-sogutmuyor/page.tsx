@@ -58,7 +58,7 @@ export default function KlimaSogutmuyorPage() {
                     </p>
 
                     <p className="text-2xl font-light text-blue-800 leading-relaxed mb-6">
-                        Evinize veya İzmir sıcağının göbeğindeki ofisinize geldiniz. Cihazınız yılların A+++ Inverter'ı <Link href="/izmir-gree-klima-satis">Gree veya Daikin Oem üretimi</Link> her şey harika. Ancak o yeşil şaltere (Kumandaya) dokunduğunuzda, içeriye sadece yapay, ılık, adeta insanın genzini kurutan bir vantilatör rüzgârı (Hatta dışarının cehennem nefesi) üflüyor. Evrensel adıyla "Cihaz Soğutmuyor". Pek çok kullanıcı bunun geçici bir dalgalanma veya ufak bir ayar hatası olduğunu zannetse de, aslında içeride; klimanızın şifreli bir sessizlik çığlığı atmakta, saniyeler içinde "Ana Motor (Kompresör)" çip kilitlenme ölümüne ilerlediğine şahitlik edilmektedir.
+                        Evinize veya İzmir sıcağının göbeğindeki ofisinize geldiniz. Cihazınız yılların A+++ Inverter'ı <Link href="/gree-klima-satis-izmir">Gree veya Daikin Oem üretimi</Link> her şey harika. Ancak o yeşil şaltere (Kumandaya) dokunduğunuzda, içeriye sadece yapay, ılık, adeta insanın genzini kurutan bir vantilatör rüzgârı (Hatta dışarının cehennem nefesi) üflüyor. Evrensel adıyla "Cihaz Soğutmuyor". Pek çok kullanıcı bunun geçici bir dalgalanma veya ufak bir ayar hatası olduğunu zannetse de, aslında içeride; klimanızın şifreli bir sessizlik çığlığı atmakta, saniyeler içinde "Ana Motor (Kompresör)" çip kilitlenme ölümüne ilerlediğine şahitlik edilmektedir.
                     </p>
 
                     <h2 className="text-3xl text-blue-900 font-bold mt-10 mb-5 border-b border-gray-100 pb-2">İlk İhtimal: Dış Gaz Çökmesi ve İnleyiş (F0 / R32 Kaybı)</h2>

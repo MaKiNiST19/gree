@@ -114,7 +114,7 @@ export default function Page() {
           
           <h2 className="text-3xl text-blue-900 font-bold mt-10 mb-5 border-b border-gray-100 pb-2">Süreç ve Keşif Aşamalarında Sık Yapılan Hatalar</h2>
           <p>Tüketicilerin fiyat/performans arayışında oldukları cihaz seçimlerinde gözden kaçırdıkları en kilit detay, <Link href="/btu-hesaplama-izmir">Doğru Klima BTU Kapasitesinin</Link> yetkililer tarafından biçilmesidir. Aksi istikamette harcanan efor sadece enerji kaybına değil aynı zamanda makine ömrünün radikal bir şekilde gerilemesine neden olur.</p>
-          <p>Mekanınıza hayat veren bu cihazların <Link href="/izmir-klima-montaj" className="font-bold underline text-blue-700">Vakumlu Profesyonel Montaj</Link> standartlarında asılması, gazın oksitlenmemesi adına tek çaredir. Deytes İklimlendirme olarak <Link href="/izmir-gree-klima-satis">Orijinal Gree Klima Satış Kampanyalarımızla</Link> en uygun fiyat altyapısını sizlerle buluşturuyoruz.</p>
+          <p>Mekanınıza hayat veren bu cihazların <Link href="/izmir-klima-montaj" className="font-bold underline text-blue-700">Vakumlu Profesyonel Montaj</Link> standartlarında asılması, gazın oksitlenmemesi adına tek çaredir. Deytes İklimlendirme olarak <Link href="/gree-klima-satis-izmir">Orijinal Gree Klima Satış Kampanyalarımızla</Link> en uygun fiyat altyapısını sizlerle buluşturuyoruz.</p>
         </div>
       </article>
 
