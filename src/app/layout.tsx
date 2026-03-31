@@ -16,12 +16,24 @@ export const metadata: Metadata = {
     default: 'Gree Klima İzmir Yetkili Bayi & Servis | Deytes İklimlendirme',
   },
   description: 'İzmir Gree klima yetkili bayi, profesyonel montaj ve teknik servis. Gree Inverter klima fiyatları ve ücretsiz keşif için ulaşın. Karabağlar, Konak, Buca.',
+  keywords: ['Gree klima', 'Gree klima İzmir', 'Gree klima modelleri', 'Gree klima fiyatları', 'Gree klima bayisi', 'İzmir klima', 'klima montaj İzmir', 'klima bakım İzmir', 'inverter klima İzmir', 'Gree yetkili bayi İzmir', 'Deytes İklimlendirme'],
+  category: 'İklimlendirme',
   verification: {
     google: 'dQZlmHTPd83Wqndf4okYZ6gB_-ONuXVlC_rZX1RZsuM',
   },
   robots: {
     index: true,
     follow: true,
+    'max-image-preview': 'large' as any,
+    'max-snippet': -1 as any,
+    'max-video-preview': -1 as any,
+  },
+  alternates: {
+    canonical: 'https://www.greeklimaizmir.com/',
+    languages: {
+      'tr-TR': 'https://www.greeklimaizmir.com/',
+      'x-default': 'https://www.greeklimaizmir.com/',
+    },
   },
   openGraph: {
     type: 'website',

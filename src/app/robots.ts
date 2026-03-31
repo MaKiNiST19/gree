@@ -5,8 +5,9 @@ export default function robots(): MetadataRoute.Robots {
         rules: {
             userAgent: '*',
             allow: '/',
-            disallow: ['/api/', '/*?', '/_next/'],
+            disallow: ['/api/'],
         },
+        host: 'https://www.greeklimaizmir.com',
         sitemap: 'https://www.greeklimaizmir.com/sitemap.xml',
     };
 }

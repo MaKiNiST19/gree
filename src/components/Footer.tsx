@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Instagram, Facebook, Linkedin, Twitter, Youtube, Star } from 'lucide-react';
+import { Instagram, Star } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -21,15 +21,15 @@ export default function Footer() {
                         </div>
                         
                         <p className="text-gray-500 text-[15px] leading-relaxed max-w-sm">
-                            22 yıllık Deytes uzmanlığı ve dünya devi Gree teknolojisi ile İzmir’in her noktasında profesyonel iklimlendirme çözümleri sunuyoruz.
+                            22 yıllık Deytes uzmanlığı ve dünya devi Gree teknolojisi ile İzmir&apos;in her noktasında profesyonel iklimlendirme çözümleri sunuyoruz.
                         </p>
 
-                        {/* Trust Badge / Award (Similar to Untitled UI reference) */}
+                        {/* Trust Badge */}
                         <div className="flex items-center gap-4 py-2">
                              <div className="flex -space-x-1">
                                 {[1, 2, 3, 4, 5].map((i) => (
                                     <div key={i} className="w-8 h-8 rounded-full border-2 border-white bg-gray-100 flex items-center justify-center overflow-hidden">
-                                        <img src={`https://i.pravatar.cc/100?img=${i+10}`} alt="User" className="w-full h-full object-cover" />
+                                        <img src={`https://i.pravatar.cc/100?img=${i+10}`} alt="Müşteri" className="w-full h-full object-cover" />
                                     </div>
                                 ))}
                              </div>
@@ -59,15 +59,15 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        {/* Column 2: Kurumsal */}
+                        {/* Column 2: Ürünler */}
                         <div className="space-y-4">
-                            <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Kurumsal</h4>
+                            <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Ürünler</h4>
                             <ul className="space-y-3">
-                                <li><Link href="/hakkimizda" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Hakkımızda</Link></li>
-                                <li><Link href="/hakkimizda" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Biz Kimiz?</Link></li>
-                                <li><Link href="/" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">İş Ortaklarımız</Link></li>
-                                <li><Link href="/blog" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Haberler</Link></li>
-                                <li><Link href="/iletisim" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">İletişim</Link></li>
+                                <li><Link href="/gree-fairy-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Fairy Serisi</Link></li>
+                                <li><Link href="/gree-pular-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Pular Serisi</Link></li>
+                                <li><Link href="/gree-airy-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Airy Serisi</Link></li>
+                                <li><Link href="/gree-aphro-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Aphro Serisi</Link></li>
+                                <li><Link href="/gree-isi-pompasi-izmir" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Isı Pompası</Link></li>
                             </ul>
                         </div>
 
@@ -77,20 +77,26 @@ export default function Footer() {
                             <ul className="space-y-3">
                                 <li><Link href="/klima-bakim-izmir" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Klima Bakımı</Link></li>
                                 <li><Link href="/klima-montaj-izmir" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Klima Montajı</Link></li>
+                                <li><Link href="/gree-klima-satis-izmir" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Klima Satış</Link></li>
                                 <li><Link href="/iletisim" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Ücretsiz Keşif</Link></li>
-                                <li><Link href="/btu-hesaplama" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">BTU Hesaplama (Kapasite)</Link></li>
+                                <li><Link href="/btu-hesaplama" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">BTU Hesaplama</Link></li>
                             </ul>
                         </div>
 
-                        {/* Column 4: Sosyal */}
+                        {/* Column 4: Kurumsal */}
                         <div className="space-y-4">
-                            <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Sosyal</h4>
+                            <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider">Kurumsal</h4>
                             <ul className="space-y-3">
-                                <li><a href="https://instagram.com/deytesiklimlendirme" target="_blank" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Instagram</a></li>
-                                <li><a href="#" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Facebook</a></li>
-                                <li><a href="#" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">LinkedIn</a></li>
-                                <li><a href="#" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Twitter (X)</a></li>
-                                <li><a href="#" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">YouTube</a></li>
+                                <li><Link href="/hakkimizda" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Hakkımızda</Link></li>
+                                <li><Link href="/blog" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Blog & Rehberler</Link></li>
+                                <li><Link href="/gree-ariza-kodlari" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Arıza Kodları</Link></li>
+                                <li><Link href="/iletisim" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">İletişim</Link></li>
+                                <li>
+                                    <a href="https://instagram.com/deytesiklimlendirme" target="_blank" rel="noopener noreferrer" className="text-[14px] hover:text-[#009be1] transition-colors font-medium flex items-center gap-1.5">
+                                        <Instagram className="w-3.5 h-3.5" />
+                                        Instagram
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
@@ -102,7 +108,6 @@ export default function Footer() {
                                 <li><Link href="/gizlilik-politikasi" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gizlilik Politikası</Link></li>
                                 <li><Link href="/gizlilik-politikasi#cerezler" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Çerez Politikası</Link></li>
                                 <li><Link href="/kvkk-aydinlatma-metni" className="text-[14px] hover:text-[#009be1] transition-colors font-medium text-nowrap">KVKK Aydınlatma</Link></li>
-                                <li><Link href="/hakkimizda" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Garanti Şartları</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -115,20 +120,8 @@ export default function Footer() {
                     </p>
                     
                     <div className="flex items-center space-x-5">
-                        <a href="https://instagram.com/deytesiklimlendirme" target="_blank" className="text-gray-400 hover:text-[#009be1] transition-colors">
+                        <a href="https://instagram.com/deytesiklimlendirme" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#009be1] transition-colors" aria-label="Instagram">
                             <Instagram className="w-5 h-5" />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-[#009be1] transition-colors">
-                            <Facebook className="w-5 h-5" />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-[#009be1] transition-colors">
-                            <Linkedin className="w-5 h-5" />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-[#009be1] transition-colors">
-                            <Twitter className="w-5 h-5" />
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-[#009be1] transition-colors">
-                            <Youtube className="w-5 h-5" />
                         </a>
                         <div className="w-8 h-8 rounded-lg bg-gray-50 border border-gray-100 flex items-center justify-center ml-2">
                              <img src="/gree-klima-logo.png" className="w-4 h-auto opacity-40 grayscale" alt="Gree" />
