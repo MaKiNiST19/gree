@@ -66,7 +66,6 @@ export default function Footer() {
                                 <li><Link href="/gree-fairy-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Fairy Serisi</Link></li>
                                 <li><Link href="/gree-pular-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Pular Serisi</Link></li>
                                 <li><Link href="/gree-airy-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Airy Serisi</Link></li>
-                                <li><Link href="/gree-aphro-serisi-klima" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Gree Aphro Serisi</Link></li>
                                 <li><Link href="/gree-isi-pompasi-izmir" className="text-[14px] hover:text-[#009be1] transition-colors font-medium">Isı Pompası</Link></li>
                             </ul>
                         </div>
