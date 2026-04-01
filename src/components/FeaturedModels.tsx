@@ -20,6 +20,12 @@ const products = [
     description: "Gelişmiş inverter teknolojisi ve güçlü hava akışı ile yüksek kapasiteli klima çözümü.",
     image: "/gree-klima-airy-18000-btu-h.jpg",
     href: "/gree-klima-modelleri"
+  },
+  {
+    name: "Gree I-Shine Salon Tipi",
+    description: "Lüks tasarımı ve üstün iklimlendirme teknolojisi ile geniş mekanlara zarafet ve yüksek verimlilik getirir.",
+    image: "/salon/shine-galeri/gree-i-shine-salon-tipi-inverter.webp",
+    href: "/gree-i-shine-salon-tipi-inverter-split-klima-24000-btu"
   }
 ];
 
